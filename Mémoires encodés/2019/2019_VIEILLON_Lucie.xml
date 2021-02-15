@@ -1,0 +1,94 @@
+<rdf:RDF xmlns:rdf="http://www.w3.org///-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <rdf:Description>
+        <dc:identifier>TNAH</dc:identifier>>
+        <dc:creator>Lucie Vieillon</dc:creator>
+        <dc:publisher>Ecole nationale des chartes (ENC)</dc:publisher>
+        <dc:title>Projet de création d’un portail web autour de la vie universitaire parisienne au Moyen Âge</dc:title>
+        <dc:contributor>Tuteur de l'ENC : Gautier Poupeau</dc:contributor>
+        <dc:contributor>Tuteur de l'institution : François Haas</dc:contributor>
+        <dc:date></dc:date>
+        <dc:description>
+            Résumé : Les chercheurs du Laboratoire de Médiévistique Occidentale de Paris (LaMOP) responsables
+de Studium Parisiense - une base prosopographie bio-bibliographique sur les maîtres, étudiants et
+suppôts de l’Université de Paris entre le e et le e siècle - ont recouru aux services de la
+Bibliothèque Interuniversitaire de la Sorbonne (BIS). Ils souhaitent qu’un groupe de travail soit
+formé afin de réfléchir à la valorisation des données issues de la recherche. La BIS, en tant que
+bibliothèque universitaire et délégataire dans le domaine des Sciences Humaines et Sociales (SHS),
+peut prétendre à des financements. Notamment, en concourant aux Appels à Projets (AAP) du
+Groupement d’Intérêt Scientifique (GIS) CollEx-Persée (Collection d’Excellence, anciennement
+CADIST) lancé auprès des bibliothèques délégataires et associées. Une expertise de la base de
+données Studium Parisiense est alors demandée.
+En dialoguant avec les chercheurs du Laboratoire de Médiévistique Occidentale de Paris –
+UMR  (LaMOP) la méthode de travail utilisée pour faire émerger ces noms se concentre
+essentiellement sur des éditions de textes imprimées et peu auprès des sources primaires. Celles-ci
+sont disponibles en trois endroits : la BIS pour la faculté des Arts Libéraux ; la Bibliothèque Inter-
+Universitaire de Santé (BIUS) pour la faculté de Médecine ; les Archives Nationales (AN) pour les
+facultés de Droit et de Théologie. Partant de ces deux états de fait, une base prosopographie (à
+développer, enrichir, valoriser) et des fonds patrimoniaux (à valoriser également), l’idée de les
+mettre en relation s’impose rapidement.
+Pour envisager cette rencontre de manière à répondre aux attentes du LaMOP, de la BIS et du
+GIS CollEx-Persée, il faut proposer un projet novateur qui ne soit pas seulement une solution
+d’accompagnement pour les chercheurs, mais qui vise plutôt un partage d’outils. Les nécessités de
+l’interopérabilité, de l’innovation, de l’Open Accessit et de l’exposition des données se cristallisent
+autour d’un portail web.
+        </dc:description>
+        <dc:description>
+            Plan :
+1. Description intellectuelle du projet
+    1.1 Contexte institutionnel
+        1.1.1 Rapide présentation
+        1.1.2 Partenaires-acteurs
+        1.1.3 Collaborateurs
+     1.2 Contexte scientifique
+        1.2.1 Les différents réservoirs
+        1.2.2 État de l’art
+2. Données de la recherche et données patrimoniales : vers une articulation commune ?
+
+    2.1 Données de la recherche 
+        2.1.1 Le cas de Studium Parisiense
+        2.1.2 Limites et critiques
+    2.2 Données patrimoniales
+        2.2.1 Rapide présentation :
+        2.2.2 Registres
+        2.2.3 Cartons d’archives
+        2.2.4 Manuscrits
+        2.2.5 Autres fonds relatifs à l’histoire de l’université de Paris
+        2.2.6 La politique de numérisation en bibliothèque
+    2.3 Objectifs et enjeux
+        2.3.1 Tenter de résoudre les problématique liées à l’anthroponymie médiévale 
+        2.3.2 L’émergence de nouvelles méthodes de travail
+        2.3.3 Vers la création d’outils partagés
+    2.4 Vers une articulation commune
+        2.4.1 Quand données et métadonnées se rencontrent
+        2.4.2 Résultats et impacts
+3. La rencontre entre les données issues de la recherche et les données patrimoniales :
+
+    3.1 Organisation prévisionnelle
+        3.1.1 Diagramme de Gantt prévisionnel
+        3.1.2 Répartition prévisionnelle des tâches
+    3.2 Le choix du web sémantique :
+        3.2.1 Web et web sémantique : quelles différences ?
+        3.2.2 Les étapes de traitement du portail Web « Open Data »4
+    3.3 L’agrégation des données dans un portail « Open Data »6
+        3.3.1 Méthodes et protocoles permettant de récupérer les données6
+        3.3.2 Exposer les données
+        </dc:description>
+        <dc:subject xml:lang="fre">archives</dc:subject>
+        <dc:subject xml:lang="fre">manuscrits</dc:subject>
+        <dc:subject xml:lang="fre">bibliothèque</dc:subject>
+        <dc:subject xml:lang="fre">données de la recherche</dc:subject>
+        <dc:subject xml:lang="fre">données patrimoniales</dc:subject>
+        <dc:subject xml:lang="fre">métadonnées</dc:subject>
+        <dc:subject xml:lang="fre">interopérabilité </dc:subject>
+        <dc:subject xml:lang="fre">Open Linkage Data</dc:subject>
+        <dc:subject xml:lang="fre">science ouverte</dc:subject>
+        <dc:subject xml:lang="fre">web 3.0</dc:subject>
+         <dc:subject xml:lang="fre">Technologies Numériques Appliquées à l'Histoire</dc:subject>
+        <dc:subject xml:lang="fre">Mémoire pour le master « Technologies numériques appliquées à l'histoire »</dc:subject>
+        <dc:type xml:lang="fre">Mémoire de master</dc:type>
+        <dc:type xml:lang="en">Master Thesis</dc:type>
+        <dc:language xml:lang="fre">Français</dc:language>
+        <dc:language xml:lang="en">French</dc:language>
+        <dc:rights>http://creativecommons.org/licenses/by-nc-nd</dc:rights>
+    </rdf:Description>
+</rdf:RDF>
