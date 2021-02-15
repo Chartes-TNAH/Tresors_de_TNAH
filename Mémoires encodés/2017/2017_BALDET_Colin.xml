@@ -1,0 +1,86 @@
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <rdf:Description>
+        <dc:identifier>17TNAH02</dc:identifier>>
+        <dc:creator>Colin Baldet</dc:creator>
+        <dc:publisher>Ecole nationale des chartes (ENC)</dc:publisher>
+        <dc:title>L'art d'encoder le démotique : de la translittération à l'édition électronique du Papyrus Berlin 8043 issu d'un corpus de registres comptables du temple de Soknopaios à Dimé (Fayoum - Egypte)</dc:title>
+        <dc:contributor>Tuteur de l'ENC : Thibault Clérice</dc:contributor>
+        <dc:contributor>Tuteur de l'institution : Nathalie Prevot</dc:contributor>
+        <dc:date>2017</dc:date>
+        <dc:description>
+            Résumé : Le projet DimeData est un projet franco-allemand dans le domaine des humanités numériques en égyptologie pour l'élaboration d'une plateforme éditoriale en ligne des registres comptables du temple de Soknopaios à Dimé (Fayoum) à l'époque romaine. Ce projet en sciences humaines est inédit à plus d'un titre puisqu'il s'agit d'étudier de nouvelles sources sur l'économie angtique à l'époque romaine, notamment le fonctionnement administratif et économique quotidien d'un temple égyptien, et de mettre en place de nouveaux outils de recherche, en particulier un outil d'édition en ligne pour des analyses multiples (glossaire paléographique ; transcription ; traduction ; commentaires lexicaux, grammaticaux et paléographiques ; interopérabilité avec d'autres bases de données, etc.). Le projet en est à sa phase initiale puisque le papyrus Berlin P. 8043 sur lequel nous avons développé l'édition électronique est un test utilisé comme base de départ pour définir une feuille de route pour les chercheurs (convention de translittération et traduction, repérage des difficultés éventuelles) et pour les informaticiens (essai d'encodage).
+        </dc:description>
+        <dc:description>
+            Plan :
+Première partie : DimeData : un projet ANR qui s'inscrit dans un contexte de recherche pluridisciplinaire et européen dans le champ des humanités numériques en égyptologie
+            Chapitre 1 : Ausonius : un laboratoire de recherche pluridisciplinaire d'excellence
+            1. L'Unité mixite de recherche Ausonius (UMR 5607) : histoire et présentation
+            a) Le Centre Charles Higounet (1968 - 1995)
+            b) Le Centre Pierre Paris (1973 - 1995)
+            c) Le Centre Georges Radet (1980 - 1995)
+            d) L'UMR Ausonius (1996 - )
+            2. Un laboratoire qui se distingue au niveau national, européen et international
+            3. ausoHNum : un service Humanités numériques
+            Chapitre 2 : DimeData : un projet franco-allemand inédit dans le demaine de l'égyptologie et des humanités numériques
+            1. Présentation du contexte historique dans lequel s'inscrit le projet DimeData
+            2. Objectifs du projet DimeData
+            3. Les équipes coordinatrices du projet
+            4. Méthodologie du projet
+            Chapitre 3 : Les langues anciennes à l'ère des humanités numériques
+            1. Les écritures égyptiennes
+            2. De la Pierre de Rosette à l'encodage des langues anciennes : redécouverte des écritures égyptiennes
+            a) La pierre de Rosette et Champollion : la clé des hiéroglyphes retrouvée
+            b) Les langues égyptienne à l'ère de l'informatique : l'exemple des hiéroglyphes
+            c) Qu'en est-il du démotique ?
+Deuxième partie : L'interopérabilité et l'encondage au coeur des enjeux de l'édition électronique
+            Chapitre 4 : Le papyrus Berlin P. 8043 à l'épreuve du temps : du temple de Soknopaiou Nesos  au Staatliche Museen de Berlin
+            1. Un corpus papyrologique unique en son genre
+            2. Les rouleaux comptables du sanctaire de Soknopaiou Nesos : typologie, particularités
+            a) Qu'y trouvons-nous ?
+            b) Comment sont exprimées les mesures et les monnaies ?
+            Chapitre 5 : Edition électronique du papyrus de Berlin P. 8043 : un cas d'étude inédit
+            1. Perspectives éditoriales et méthodologie pour l'encodage et l'édition du papyrus
+            2. Epidoc et Thot : des standards pour la modélisation en TEI-XML des sources anciennes
+            a) Epidoc : un standard TEI-XML spécifique à l'épigraphie et aux sources anciennes (papyrus, manuscrits, ostraca)
+            b) Thot : une plateforme "for documenting Ancient Egyptian Resources"
+            3. La TEI : une structure sémantique et hiérarchique au plsu près de notre papyrus
+            a) Choix d'encodage opérés pour le &lt;teiHeader&gt;
+            b) Choix d'encodage opérés pour le &lt;text&gt;
+            Chapitre 6 : Enrichir une édition électronique à l'heure du Web de données : interopérabilité et hyperliens
+            1. Trismegitos : un portail parpyrologique et épigraphique incontournable
+            2. Thot : des thesauri pour renseigner les métadonnées de notre papyrus
+            3. Pactols et Wikidata : des standards pour identifier les noms des divinités
+Troisième partie : L'édition du Papyrus Berlin P. 8043 : une phase de test comme prérequis du projet DimeData
+            Chapitre 7 : Résultats : génération d'un schéma Relax NG et d'une page HTML
+            1. Le schéma Relax NG : un préalable nécessaire pour la saisie de documents analogues à notre papyrus
+            2. Génération d'une page HTML : un outil de visualisation et de valorisation de nos travaux
+            Chapitre 8 : Perspectives du projet DimeData : des outils et des documents à développer et à enrichir
+            1. Les index : des outils de base à compléter pour des études linguistiques, proposopographiques, géographiques et historiques
+            2. Enrichir le document XML-TEI : les déterminatifs, les anthroponymes, les notes et les commentaires
+        </dc:description>
+        <dc:subject xml:lang="fre">épigraphie médiévale</dc:subject>
+        <dc:subject xml:lang="fre">inscription</dc:subject>
+        <dc:subject xml:lang="fre">Corpus des Inscriptions de la France Médiévale (CIFM)</dc:subject>
+        <dc:subject xml:lang="fre">ORIFLAMMS</dc:subject>
+        <dc:subject xml:lang="fre">TITULUS</dc:subject>
+        <dc:subject xml:lang="fre">paléographie</dc:subject>
+        <dc:subject xml:lang="fre">Text Encoding Initiative (TEI)</dc:subject>
+        <dc:subject xml:lang="fre">Text Encoding Initiative (TEI)</dc:subject>
+        <dc:subject xml:lang="fre">EpiDoc</dc:subject>
+        <dc:subject xml:lang="fre">ODD</dc:subject>
+        <dc:subject xml:lang="fre">XML</dc:subject>
+        <dc:subject xml:lang="fre">textométrie</dc:subject>
+        <dc:subject xml:lang="fre">TXM</dc:subject>
+        <dc:subject xml:lang="fre">notice</dc:subject>
+        <dc:subject xml:lang="fre">base de données native XML</dc:subject>
+        <dc:subject xml:lang="fre">XSLT</dc:subject>
+        <dc:subject xml:lang="fre">HTML</dc:subject>
+         <dc:subject xml:lang="fre">Technologies Numériques Appliquées à l'Histoire</dc:subject>
+        <dc:subject xml:lang="fre">Mémoire pour le master « Technologies numériques appliquées à l'histoire »</dc:subject>
+        <dc:type xml:lang="fre">Mémoire de master</dc:type>
+        <dc:type xml:lang="en">Master Thesis</dc:type>
+        <dc:language xml:lang="fre">Français</dc:language>
+        <dc:language xml:lang="en">French</dc:language>
+        <dc:rights>http://creativecommons.org/licenses/by-nc-nd</dc:rights>
+    </rdf:Description>
+</rdf:RDF>
