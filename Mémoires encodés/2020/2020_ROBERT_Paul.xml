@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <rdf:Description>
+        <dc:identifier>20TNAH14</dc:identifier>
+        <dc:creator>Paul Robert</dc:creator>
+        <dc:publisher>Ecole nationale des Chartes (ENC)</dc:publisher>
+        <dc:title xml:lang="fre">L'uniformisation et la pérennité des informations numériques dans
+            les bibliothèques numériques : le cas du logiciel libre Omeka</dc:title>
+        <dc:contributor>Tuteur de l'ENC : Thibault Clérice</dc:contributor>
+        <dc:contributor>Tuteur de l'institution : Ammar Ayoub</dc:contributor>
+        <dc:contributor>Institution de stage : Kartable (Paris)</dc:contributor>
+        <dc:date>2020</dc:date>
+        <dc:description xml:lang="fre">Résumé : Word2vec est un algorithme de Traitement automatique
+            du langage créé par une équipe de recherche dirigée par Tomas Mikolov au sein de Google
+            en 2013. Word2vec est le premier algorithme de Word Embedding employant un réseau de
+            neurones peu profond à produire des résultats relativement fiables tout en conservant un
+            faible coût de calcul, ce qui a permis de développer une nouvelle approche du traitement
+            automatique des langues naturelles. La publication en open source de ce projet a appuyé
+            le développement de l’apprentissage automatique grâce à son succès et à sa simplicité
+            tout en continuant d’impliquer de plus en plus Google dans le Monde du Libre. Word2vec a
+            entraîné aussi bien le développement d’outils d’apprentissage automatique qu’une
+            indexation du web plus efficace.</dc:description>
+        <dc:description> Plan : I Le traitement automatique du langage 1 Définition 2 L’importance
+            de la préparation du corpus 2.1 Préparer les textes 2.2 Le corpus d’entraînement en
+            machine learning 3 Les différents types d’algorithmes de fouille textuelle en traitement
+            automatique du langage 3.1 Les algorithmes « bag of words » ou « Sac de mots » 3.2 Les
+            algorithmes de « Word Embedding » 3.3 Les algorithmes de « language models » II
+            Word2vec, un algorithme de traitement automatique du langage 4 Les conditions de la
+            création de la Word2vec 5 Le fonctionnement du réseau de neurones 5.1 Qu’est-ce qu’un «
+            neurone » ? 5.2 Que se passe-t-il dans un neurone ? 5.3 Les couches de neurones 5.4 Le
+            réseau de neurone à propagation avant et l’algorithme de rétropropagation du gradient
+            5.5 Les fonctions de calcul non-linéaire et la couche de sortie 6 Les deux architectures
+            de Word2vec 6.1 CBOW 6.2 Skip-gram III Les conséquences de Word2vec 7 La critique de
+            Word2vec 8 Un outil 8.1 FastText 8.2 GloVe 9 Optimiser son contenu en ligne pour
+            Word2vec : le référencement naturel</dc:description>
+        <dc:format/>
+        <dc:subject xml:lang="fre">Word2vec.</dc:subject>
+        <dc:subject xml:lang="fre">FastText</dc:subject>
+        <dc:subject xml:lang="fre">GloVe</dc:subject>
+        <dc:subject xml:lang="fre">TAL</dc:subject>
+        <dc:subject xml:lang="fre">NLP</dc:subject>
+        <dc:subject xml:lang="fre">Tomas Mikolov</dc:subject>
+        <dc:subject xml:lang="fre">Google</dc:subject>
+        <dc:subject xml:lang="fre">Machine Learning</dc:subject>
+        <dc:subject xml:lang="fre">Réseau de neurones</dc:subject>
+        <dc:subject xml:lang="fre">SEO</dc:subject>
+        <dc:subject xml:lang="fre">Référencement Naturel</dc:subject>
+        <dc:subject xml:lang="fre">Technologies Numériques Appliquées à l'Histoire</dc:subject>
+        <dc:subject xml:lang="fre">Mémoire pour le master « Technologies numériques appliquées à
+            l'histoire »</dc:subject>
+        <dc:type xml:lang="fre">Mémoire de master</dc:type>
+        <dc:type xml:lang="en">Master Thesis</dc:type>
+        <dc:language xml:lang="fre">Français</dc:language>
+        <dc:language xml:lang="en">French</dc:language>
+        <dc:rights>http://creativecommons.org/licenses/by-nc-nd</dc:rights>
+    </rdf:Description>
+</rdf:RDF>
