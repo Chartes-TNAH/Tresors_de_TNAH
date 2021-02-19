@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <rdf:Description>
+        <dc:identifier>20TNAH13</dc:identifier>
+        <dc:creator>Aurianne Quoix</dc:creator>
+        <dc:publisher>Ecole nationale des Chartes (ENC)</dc:publisher>
+        <dc:title xml:lang="fre">Interopérabilité et diffusion de données en histoire de l’art :
+            implémentation de IIIF au sein du projet VISUAL CONTAGIONS</dc:title>
+        <dc:contributor>Tuteur de l'ENC : Ariane Pinche</dc:contributor>
+        <dc:contributor>Tuteur de l'institution : Béatrice Joyeux-Prunel</dc:contributor>
+        <dc:contributor>Institution de stage : Université de Genève (UNIGE)</dc:contributor>
+        <dc:date>2020</dc:date>
+        <dc:description xml:lang="fre">Résumé : Le présent mémoire a été réalisé en vue de
+            l’obtention du Master 2 « Technologies numériques appliquées à l’histoire » de l’École
+            nationale des chartes. Sa rédaction a débuté suite à un stage de trois mois et demi au
+            sein de l’équipe du projet VISUAL CONTAGIONS. L’objectif de ce projet de recherche,
+            porté par l’Université de Genève (UNIGE) en partenariat avec le centre d’excellence Jean
+            Monnet IMAGO situé à l’École normale supérieure de Paris (ENS), est de permettre
+            l’analyse de la circulation des images afin de réaliser une étude de la mondialisation
+            artistique et culturelle. Le corpus, qui s’étend sur un siècle, des années 1890 aux
+            années 1990, est constitué d’affiches et d’images d’art, de même que d’illustrations
+            provenant de catalogues d’exposition, de périodiques, de catalogues de vente et de
+            feuillets de colportage. La publication de ces images sur le Web, implique un certain
+            nombre de choix et de réalisations techniques. Lors de ce stage, il a été question de
+            réaliser un travail autour des métadonnées de ces images destinées à être publiées en
+            ligne et, plus particulièrement, de concevoir un processus permettant de générer
+            automatiquement des manifestes IIIF. Ce mémoire vise à interroger et analyser chaque
+            étape ayant segmenté le stage, dans le but d’en saisir les enjeux et de fournir une
+            analyse critique des méthodes employées et des résultats obtenus.</dc:description>
+        <dc:description> Plan : Première partie : Histoire de l’art et humanités numériques :
+            l’exemple du projet VISUAL CONTAGIONS, ou comment proposer de nouvelles méthodes de
+            recherche en histoire de l’art. Chapitre 1. Panorama du paysage des humanités numériques
+            appliquées à l’histoire de l’art. 1.1 Digitizing Art History et Computational Art
+            History : deux grands domaines d’interaction 1.2 Vers une évolution de l’approche de la
+            recherche en histoire de l’art ?.. 31 Chapitre 2. D’Artl@s à VISUAL CONTAGIONS : un
+            passage à la vision artificielle et à l’apprentissage profond 2.1 A l’origine, le projet
+            Artl@s 2.2 VISUAL CONTAGIONS et le centre IMAGO : des horizons communs 2.3 Intelligence
+            artificielle et analyse d’image : quelle place occupe VISUAL CONTAGIONS face aux autres
+            projets issus des humanités numériques ? Chapitre 3. Présentation des sources du projet
+            3.1 Un corpus hétérogène 3.2 Les catalogues d’exposition, une source précieuse pour
+            l’histoire de l’art 3.3 La revue d’art, vecteur de la diffusion de formes artistiques
+            Deuxième partie : Préparation et traitement technique des métadonnées : un préalable à
+            leur exposition 53 Chapitre 4. Premières étapes d’un projet ambitieux 4.1 Publication
+            d’information, l’importance des métadonnées 4.2 Identifier la ressource : questions de
+            nommage et pérennité des données 4.3 Choix d’une convention de nommage et d’organisation
+            des fichiers sur le serveur Chapitre 5. Prototypage et préparation de métadonnées 65 5.1
+            Utilisation de Dataiku 5.2 Nettoyage partiel des données, homogénéisation et
+            enrichissement de la structure du tableur 5.3 Importation du prototype dans Google
+            Sheets et documentation du tableur Chapitre 6. La TEI comme format pivot 6.1 Utilisation
+            de la Text Encoding Initiative pour l’encodage de métadonnées 6.2 Création d’un modèle
+            de TEI header et réalisation d’une cartographie des données 6.3 Valider le modèle et le
+            documenter : utilisation de One Document Does it all (ODD) Chapitre 7. Automatiser la
+            transformation des données vers des TEI headers 7.1 Extensible Stylesheet Language
+            Transformations (XSLT) 7.2 Documentation de lancement du script XSLT Troisième partie :
+            Exposer, valoriser les images et leurs métadonnées et en assurer l’interopérabilité :
+            les protocoles IIIF Chapitre 8. La nécessité de pouvoir garantir un cadre
+            d’interopérabilité 8.1 Accessibilité et valorisation des collections numérisées : le
+            problème du cloisonnement des entrepôts de données 8.2 L'International Image
+            Interoperability Framework (IIIF) : définition et enjeux Chapitre 9. Les standards IIIF
+            : une solution adoptée par nombre d’institutions culturelles et de l’enseignement
+            supérieur 9.1 Présentation du fonctionnement IIIF : les APIs partagées 98 9.2 Comment
+            s’implémente IIIF au sein du projet VISUAL CONTAGIONS ? Chapitre 10 Mise en place
+            de l’API Présentation au sein du projet VISUAL CONTAGIONS 10.1 Création d’un modèle de
+            manifeste et de collection 10.2 Générer des manifestes IIIF grâce à un script XSLT 10.3
+            Mise en place d’un système de collection</dc:description>
+        <dc:format/>
+        <dc:subject xml:lang="fre">métadonnées</dc:subject>
+        <dc:subject xml:lang="fre">IIIF</dc:subject>
+        <dc:subject xml:lang="fre">interopérabilité</dc:subject>
+        <dc:subject xml:lang="fre">API</dc:subject>
+        <dc:subject xml:lang="fre">XML-TEI</dc:subject>
+        <dc:subject xml:lang="fre">ODD</dc:subject>
+        <dc:subject xml:lang="fre">XSLT</dc:subject>
+        <dc:subject xml:lang="fre">JSON-LD</dc:subject>
+        <dc:subject xml:lang="fre">histoire de l’art</dc:subject>
+        <dc:subject xml:lang="fre">VISUAL CONTAGIONS</dc:subject>
+        <dc:subject xml:lang="fre">catalogues d’exposition</dc:subject>
+        <dc:subject xml:lang="fre">périodiques</dc:subject>
+        <dc:subject xml:lang="fre">XIXe</dc:subject>
+        <dc:subject xml:lang="fre">Technologies Numériques Appliquées à l'Histoire</dc:subject>
+        <dc:subject xml:lang="fre">Mémoire pour le master « Technologies numériques appliquées à l'histoire »</dc:subject>
+        <dc:type xml:lang="fre">Mémoire de master</dc:type>
+        <dc:type xml:lang="en">Master Thesis</dc:type>
+        <dc:language xml:lang="fre">Français</dc:language>
+        <dc:language xml:lang="en">French</dc:language>
+        <dc:rights>http://creativecommons.org/licenses/by-nc-nd</dc:rights>
+    </rdf:Description>
+</rdf:RDF>
