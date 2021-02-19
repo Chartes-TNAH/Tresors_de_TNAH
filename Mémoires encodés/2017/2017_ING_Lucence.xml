@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <rdf:Description>
+        <dc:identifier>17TNAH10</dc:identifier>
+        <dc:creator>Lucence Ing</dc:creator>
+        <dc:publisher>Ecole nationale des Chartes (ENC)</dc:publisher>
+        <dc:title xml:lang="fre">Traitement numériques d'un corpus littéraire. Le cas du corpus de
+            la renaissance littéraire Gasconne (CoRLiG)</dc:title>
+        <dc:contributor>Tuteur de l'ENC : Jean-Baptiste Camps</dc:contributor>
+        <dc:contributor>Tuteur de l'institution : Gilles Couffignal</dc:contributor>
+        <dc:contributor>Institution de stage : projet CoRLiG - STIH, Université
+            Paris-Sorbonne</dc:contributor>
+        <dc:date>2017</dc:date>
+        <dc:description xml:lang="fre">Résumé : Ce mémoire porte sur les traitements qu’il est
+            possible d’appliquer à un corpus numérique. Il explique les étapes, de l’acquisition de
+            données à leur exploitation, que nous avons menées au sein du projet CoRLiG (Corpus de
+            la Renaissance littéraire gasconne), au cours des quatre mois durant lesquels nous y
+            avons fait notre stage. Nous développons ici les aspects techniques et scientifiques de
+            tels traitements, en présentant les outils utilisés et en expliquant leurs
+            fonctionnalités. L’acquisition des données se fait par le biais d’une océrisation, leur
+            structuration par le langage XML-TEI. Les exploitations se font tant dans des visées de
+            publications, web et papier, à travers des transformations XSLT, vers des formats HTML
+            et LATEX, que dans des visées d’étude linguistique, à travers l’utilisation d’un
+            logiciel de textométrie, ou dans des visées spécifiques, à travers la production d’un
+            outil XSLT pour une syllabation automatisée d’une partie du corpus. Le présent travail a
+            pour objectif de montrer le grand intérêt d’utiliser des outils numériques pour mener
+            des recherches à la fois précises et variées.</dc:description>
+        <dc:description> Plan : I Le corpus 1 Le projet CoRLiG 1.1 Le laboratoire STIH et le projet
+            CoRLiG 1.1.1 STIH et CoRLiG 1.1.2 Le corpus : des textes de la Renaissance gasconne 1.2
+            L’étude de corpus 1.2.1 Un corpus textuel 1.2.2 Corpus et numérique 2 La langue du
+            corpus 2.1 L’occitan 2.1.1 La langue d’oc et la langue d’oïl 2.1.2 Élements historiques
+            sur la langue d’oc 2.2 Place du gascon 2.2.1 Quelques éléments géographiques 2.2.2
+            Origine et traits particuliers 2.3 L’occitan au XVIe siècle 2.3.1 Décadence des usages
+            de l’occitan 2.3.2 La Renaissance littéraire 3 Les textes du corpus 3.1 Pey de Garros :
+            sa vie et sa vision de la langue 3.1.1 Biographie 3.1.2 Grandeur de la langue gasconne
+            3.1.3 Système graphique 3.2 Les Psaumes 3.2.1 Histoire d’une traduction 3.2.2 Le texte
+            3.3 Les Poesias gasconas 3.3.1 Un texte plus léger et plus engagé 3.3.2 Le texte II
+            Acquisition et enrichissement des données 4 Océrisation du texte 4.1 La reconnaissance
+            optique de caractères 4.1.1 Une étape nécessaire 4.1.2 Utilisations de l’océrisation 4.2
+            Quel modèle d’OCR choisir ? 4.2.1 Les différents modèles 4.2.2 Le choix d’Ocropy 4.3
+            Application 4.3.1 Prétraitements du texte 4.3.2 Préparer les données avec Ocropy 4.3.3
+            Préparer le ground truth 4.3.4 Entraîner les données 5 Encoder le texte 5.1 Encodage
+            XML-TEI 5.1.1 Le langage 5.1.2 Le schéma 5.2 Les principes d’encodage du projet 5.2.1
+            Structuration globale 5.2.2 Les éléments spécifiques 6 Premières exploitations 6.1
+            Transformations XSLT vers XHTML 6.1.1 Fonctionnement de XSLT 6.1.2 Rendre accessibles
+            les textes et créer des outils 6.1.3 Les trois versions 6.1.4 Des outils de travail 6.2
+            Sortie vers LATEX 6.2.1 Le langage LATEX 6.2.2 Utilisation du package reledmac 6.2.3
+            Transformation 6.3 L’exploitation textométrique du texte 6.3.1 Intérêt de la textométrie
+            6.3.2 Choix de l’outil 6.3.3 Utilisations III Un exemple particulier de traitement
+            possible : la syllabation des Psaumes 7 Pourquoi syllaber 7.1 Volonté de syllaber 7.1.1
+            Établir une concordance des Psaumes avec des partitions 7.1.2 Les questions 7.2 Comment
+            encoder la syllabation 7.2.1 Syllabe morphosyntaxique et syllabe phonétique 7.2.2
+            Syllabe entière ou noyau vocalique 8 L’état de l’art en matière de syllabation 8.1 Les
+            projets numériques en langue occitane 8.2 Les projets français 8.2.1 Le Nouveau Nætebus
+            8.2.2 Le Métromètre 8.2.3 Anamètre 8.3 Les projets en espagnol 8.3.1 ReMetca 8.3.2 ASDO
+            8.4 Projets d’intelligence artificielle en castillan 8.5 Quelques autres projets 9
+            Procédé de syllabation via XSLT 9.1 Notre propre méthode 9.1.1 Inadéquation des projets
+            étudiés à notre objectif 9.1.2 Le choix de XSLT 9.1.3 Passer d’un document XML à un
+            autre document XML 9.2 Première étape : granularité au niveau des caractères 9.2.1
+            Problèmes des axes en XSLT 9.2.2 Les éléments &lt;c&gt; 9.3 Deuxième étape :
+            l’établissement des règles de syllabation 9.3.1 Des éléments &lt;seg&gt; sur les noyaux
+            vocaliques 9.3.2 Les éléments &lt;syn/&gt; et &lt;syll/&gt; 9.3.3 La tonicité des mots
+            9.4 Troisième étape : métrique et accent tonique 9.4.1 Syllabes toniques 9.4.2 Métrique
+            des vers 9.5 Un outil 9.5.1 Sortie HTML de relecture 9.5.2 Un outil
+            imparfait</dc:description>
+        <dc:format/>
+        <dc:subject xml:lang="fre">corpus numérique</dc:subject>
+        <dc:subject xml:lang="fre">XML-TEI</dc:subject>
+        <dc:subject xml:lang="fre">OCR</dc:subject>
+        <dc:subject xml:lang="fre">Ocropy</dc:subject>
+        <dc:subject xml:lang="fre">textométrie</dc:subject>
+        <dc:subject xml:lang="fre">TXM</dc:subject>
+        <dc:subject xml:lang="fre">syllabation</dc:subject>
+        <dc:subject xml:lang="fre">XSLT</dc:subject>
+        <dc:subject xml:lang="fre">HTML</dc:subject>
+        <dc:subject xml:lang="fre">LATEX</dc:subject>
+        <dc:subject xml:lang="fre">langue gasconne</dc:subject>
+        <dc:subject xml:lang="fre">Technologies Numériques Appliquées à l'Histoire</dc:subject>
+        <dc:subject xml:lang="fre">Mémoire pour le master « Technologies numériques appliquées à
+            l'histoire »</dc:subject>
+        <dc:type xml:lang="fre">Mémoire de master</dc:type>
+        <dc:type xml:lang="en">Master Thesis</dc:type>
+        <dc:language xml:lang="fre">Français</dc:language>
+        <dc:language xml:lang="en">French</dc:language>
+        <dc:rights>http://creativecommons.org/licenses/by-nc-nd</dc:rights>
+    </rdf:Description>
+</rdf:RDF>
