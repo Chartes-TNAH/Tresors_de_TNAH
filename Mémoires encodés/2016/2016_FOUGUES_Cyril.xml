@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <rdf:Description>
+        <dc:identifier>16TNAH03</dc:identifier>
+        <dc:creator>Cyril Fougues</dc:creator>
+        <dc:publisher>Ecole nationale des Chartes (ENC)</dc:publisher>
+        <dc:title xml:lang="fre">Géolocalisation du fonds de brevets d'invention (1791-1901). Conception d’une application de géolocalisation.</dc:title>
+        <dc:contributor>Tuteur de l'ENC : Pascal Brunet</dc:contributor>
+        <dc:contributor>Tuteur de l'institution : Steeve Gallizia</dc:contributor>
+        <dc:contributor>Institution de stage : Institut national de la propriété industrielle (INPI) (Courbevoie)</dc:contributor>
+        <dc:date>2016</dc:date>
+        <dc:description xml:lang="fre">Résumé : Ce mémoire de fin de formation a pour objet l’étude, la faisabilité et la réalisation
+            d’une application de géolocalisation dont la finalité sera de situer sur une carte interactive les
+            brevets d’invention de l’Institut National de la Propriété Industrielle, sur une période allant de
+            1791 à 1901. Ce travail permettra d’analyser l’emploi de géolocalisation au service des
+            archives. L’application est réalisée sur la base d’un échantillon de données, mais son fonctionnement a
+            été étudié pour pouvoir intégrer et gérer une quantité d’information plus conséquente. Cet
+            échantillon élaboré d’après la base Brevet 19e siècle permet de mettre en lumière les différents cas de figures qui pourraient poser problème lors du processus de géolocalisation.
+            Un livrable technique séparé de ce mémoire permet de prendre connaissance des codes et
+            langages informatiques utilisés pour la conception de l’application. En effet, cette dernière a
+            été réalisée d’après des méthodes libres de droits. Une bibliographie contient les références
+            des sources, ouvrages, sites ou de tous autres documents utilisés dans le cadre de ce travail.
+        </dc:description>
+        
+        <dc:description>
+            Partie 1 : Etat des lieux...........................................................................................................17
+            Chapitre 1 : La géolocalisation : définition et enjeux..........................................................19
+            1. Le procédé.............................................................................................................................19
+            1.1 Définition de la géolocalisation...............................................................................19
+            1.2. Le fonctionnement de la géolocalisation................................................................19
+            1.2.1. Coordonnées : latitudes et longitude.......................................................20
+            1.2.2. Unités......................................................................................................21
+            1.2.3. Normes....................................................................................................22
+            2. Etat des lieux.........................................................................................................................23
+            2.1. La révolution numérique........................................................................................23
+            2.1.1. Une utilisation de masse..........................................................................23
+            2.1.2. Les technologies......................................................................................24
+            2.1.2.1. Les technologies pour la géolocalisation Outdoor...................24
+            2.1.2.2 Les technologies pour la géolocalisation Indoor.......................25
+            2.2 Les différents usages...............................................................................................30
+            2.2.1 Le domaine commercial et industriel.......................................................30
+            2.2.2 Le cas du secteur culturel.........................................................................32
+            2.2.2.1 Les bibliothèques, les musées et les centres de recherche.........32
+            2.2.2.2 Les Archives : institutions et logiciels.......................................35
+            Partie 2 : L’INPI et ses données............................................................................................41
+            Chapitre 2 : Des données au service de la géolocalisation...................................................43
+            1. L’Institut National de la Propriété Industrielle.....................................................................43
+            1.1. Historique...............................................................................................................43
+            1.1.1 L’institution..............................................................................................43
+            1.1.2 La mémoire de la création technique.......................................................44
+            1.2. Les brevets d’invention..........................................................................................45
+            1.2.1 L’Ancien Régime.....................................................................................45
+            1.2.2 Le XIXe
+            siècle..........................................................................................46
+            153
+            1.3 La base 19e
+            siècle....................................................................................................48
+            1.3.1 Présentation..............................................................................................48
+            1.3.2 Fonctionnalités de l’outil..........................................................................49
+            2. Analyse des données de brevets............................................................................................52
+            2.1 Les données de l’INPI.............................................................................................52
+            2.1.1 Présentation générale................................................................................53
+            2.1.2 Les différents champs...............................................................................54
+            2.1.2.1 Partie « Brevet » .......................................................................57
+            2.1.2.2 Partie « Noms » ........................................................................60
+            2.1.2.3 Partie « Adresses » ...................................................................61
+            2.1.3 Les différents cas de figures.....................................................................67
+            2.2 Statistiques entre 1791 et 1901...............................................................................69
+            2.2.1 Evolution du nombre des brevets.............................................................69
+            2.2.2 Le nombre d’occurrence des villes...........................................................72
+            3. Echantillonnage....................................................................................................................76
+            3.1 Processus de création..............................................................................................77
+            3.1.1 Méthode d’extraction...............................................................................77
+            3.1.2 Sélection et champs conservés.................................................................80
+            3.2 Justification des choix : le cas des Architectes.......................................................83
+            Partie 3 : Application.............................................................................................................87
+            Chapitre 3 : La géolocalisation des brevets d’invention.....................................................89
+            1. Les outils disponibles...........................................................................................................89
+            1.1 Propriétaire : la solution Esri..................................................................................89
+            1.2 Open Source : Open Refine....................................................................................95
+            2. Ma solution proposée...........................................................................................................98
+            2.1 La base de données.................................................................................................98
+            2.1.1 Présentation du diagramme......................................................................98
+            2.1.2 Les tables et leurs données.....................................................................102
+            2.1.3 Les relations entre les tables...................................................................107
+            2.2 Le système cartographique Leaflet.......................................................................110
+            2.2.1 Les fonds de cartes.................................................................................110
+            2.2.2 Les marqueurs........................................................................................114
+            2.2.3 Les fenêtres............................................................................................118
+            2.3 L’interface.............................................................................................................120
+            2.3.1 Les pages informatives...........................................................................121
+            2.3.2 La partie Recherche................................................................................125
+            2.3.2.1 La carte....................................................................................125
+            2.3.2.2 Le formulaire...........................................................................129
+            2.3.3 L’affichage des résultats.............................................................132
+            154
+            3. Bilan...................................................................................................................................136
+            3.1. Les avantages de l’application.............................................................................137
+            3.2 Les problèmes liés aux adresses...........................................................................138
+            3.3 Les implémentations futures................................................................................140
+        </dc:description>
+        
+        <dc:format/>
+        
+        <dc:subject xml:lang="fre">Géolocalisation</dc:subject>
+        <dc:subject xml:lang="fre">brevets d’invention</dc:subject>
+        <dc:subject xml:lang="fre">19e siècle</dc:subject>
+        <dc:subject xml:lang="fre">Institut Nationale de la Propriété Industrielle (INPI)</dc:subject>
+        <dc:subject xml:lang="fre">déposant</dc:subject>
+        <dc:subject xml:lang="fre">application</dc:subject>
+        <dc:subject xml:lang="fre">base de données</dc:subject>
+        <dc:subject xml:lang="fre">ressources numériques</dc:subject>
+        <dc:subject xml:lang="fre">archives</dc:subject>
+        <dc:subject xml:lang="fre">Technologies Numériques Appliquées à l'Histoire</dc:subject>
+        <dc:subject xml:lang="fre">Mémoire pour le master « Technologies numériques appliquées à l'histoire »</dc:subject>
+        <dc:type xml:lang="fre">Mémoire de master</dc:type>
+        <dc:type xml:lang="en">Master Thesis</dc:type>
+        <dc:language xml:lang="fre">Français</dc:language>
+        <dc:language xml:lang="en">French</dc:language>
+        <dc:rights>http://creativecommons.org/licenses/by-nc-nd</dc:rights>
+    </rdf:Description>
+</rdf:RDF>
