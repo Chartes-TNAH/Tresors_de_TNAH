@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://p/1.1/">
+    <rdf:Description>
+        <dc:identifier>19TNAH12</dc:identifier>
+        <dc:creator>Corentin Faye</dc:creator>
+        <dc:publisher>École nationale des Chartes (ENC)</dc:publisher>
+        <dc:title xml:lang="fre">Les améliorations d’une édition numérique native : l’accès à l’information et l’aide aux chercheurs</dc:title>
+        <dc:contributor>Tuteur de l'ENC :Thibault Clérice</dc:contributor>
+        <dc:contributor>Tuteurs de l'institution : Mattew Munson et Philippe Depreux</dc:contributor>
+        <dc:contributor>Institution de stage : Formulae Litterae Chartae / Hambourg (Allemagne)</dc:contributor>
+        <dc:date>2019</dc:date>
+        <dc:description xml:lang="fre">Résumé : ce mémoire aborde la problématique d’une amélioration d’une édition numérique. Il a été réalisé dans l’optique de l’obtention du Master 2 « Technologie numériques appliquées
+            à l’histoire » de l’École nationale des Chartes. Il a été rédigé après un stage de quatre mois au sein du projet Formulae à l’université d’Hambourg. Le projet a pour but de réaliser
+            une nouvelle édition critique de l’intégralité des formules connus. Ce mémoire explique le rajout d’une Edition fac-similé à côté de d’une Edition diplomatique et critique à travers
+            l’apport de la technologie IIIF. Il explique également la question de la lemmatisation et des problèmes de post-correction. Il évoque les difficultés à apporter des solutions techniques
+            pérennes sur des projets à long terme qui doit, comme lui, durer plus d’une dizaine d’année et comment ces solutions doivent aider les chercheurs à produire une édition de meilleur
+            qualité.</dc:description>
+        <dc:description> 
+            Plan :
+            1 Le projet Formulae : un projet de 15 ans 
+            1.1 Les Formulae 
+            1.1.1 Qu’est-ce qu’un Formulae 
+            1.1.2 l’édition classique des formulaires 
+            1.1.3 Les différentes origines des formules 
+            1.2 Les contraintes d’une édition électronique native
+            1.2.1 La réalisation d’une nouvelle édition critique 
+            1.2.2 Les questionnements autour de l’édition numérique
+            1.3 Les outils numériques du projet 
+            1.3.1 Les outils de transcription 
+            1.3.2 Werkstatt ou le site web
+            1.3.3 CapiTainS 
+            1.3.4 Le fonctionnement de Nemo 
+            1.3.5 L’intégration continue 
+            1.3.6 L’architecture du site 
+            1.3.7 Le site web côté utilisateur 
+            2 L’accès à la source : IIIF
+            2.1 La question de IIIF pour l’édition 
+            2.1.1 Qu’est ce que IIIF 
+            2.1.2 Les différentes composantes techniques de IIIF : Image, serveur, manifest 
+            2.1.3 Son avantage pour notre édition numérique
+            2.2 L’intégration de IIIF dans le site web 
+            2.2.1 Le choix du serveurs 
+            2.2.2 Les différents visualiseurs
+            2.2.3 L’intégration dans le code du projet 
+            2.2.4 Les erreurs de conception 
+            2.3 Mise en place de l’automatisation du service
+            2.3.1 les avantages de de la création d’un script 
+            2.3.2 Création d’un site pour créer un fichier de configuration
+            2.3.3 L’Utilisation de cron
+            3 Aide à la lemmatisation : améliorer l’accéssibilité des textes
+            3.1 Les questions de la lemmatisation 
+            3.1.1 L’utilité de la lemmatisation 
+            3.1.2 Les difficultés de la lemmatisation dans le projet 
+            3.1.3 Création d’un modèle ou reprise d’un modèle existant de lemmatisation 
+            3.2 Pie : création d’un modèle 
+            3.2.1 Qu’est ce que Pie ? 
+            3.2.2 La question des données 
+            3.2.3 L’utilisation et limite de Pie 
+            3.2.4 Résultat de l’apprentissage
+            3.3 L’amélioration de la lemmatisation manuelle : Pyrrah 
+            3.3.1 Utilité de Pyrrah 
+            3.3.2 Configuration et utilisation 
+        </dc:description>
+        <dc:format/>
+        <dc:subject xml:lang="fre">Édition numérique</dc:subject>
+        <dc:subject xml:lang="fre">IIIF</dc:subject>
+        <dc:subject xml:lang="fre">Lemmatisation</dc:subject>
+        <dc:subject xml:lang="fre">Intégration continue</dc:subject>
+        <dc:subject xml:lang="fre">Formulae</dc:subject>
+        <dc:subject xml:lang="fre">Histoire médiévale</dc:subject>
+        <dc:subject xml:lang="fre">Technologies Numériques Appliquées à l'Histoire</dc:subject>
+        <dc:subject xml:lang="fre">Mémoire pour le master « Technologies numériques appliquées à l'histoire »</dc:subject>
+        <dc:type xml:lang="fre">Mémoire de master</dc:type>
+        <dc:type xml:lang="en">Master Thesis</dc:type>
+        <dc:language xml:lang="fre">Français</dc:language>
+        <dc:language xml:lang="en">French</dc:language>
+        <dc:rights>http://creativecommons.org/licenses/by-nc-nd</dc:rights>
+    </rdf:Description>
+</rdf:RDF>
