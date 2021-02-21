@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <rdf:Description>
+        <dc:identifier>19TNAH11</dc:identifier>
+        <dc:creator>Louise Dutertre</dc:creator>
+        <dc:publisher>École nationale des Chartes (ENC)</dc:publisher>
+        <dc:title xml:lang="fre">Préserver la mémoire des œuvres cinématographiques à l’ère numérique : le cas du fonds Amos Gitaï à la Bibliothèque nationale de France</dc:title>
+        <dc:contributor>Tuteur de l'ENC : Vincent Verdese</dc:contributor>
+        <dc:contributor>Tuteurs de l'institution : Joël Huthwohl, Jean-Baptiste Raze et Rime Touil</dc:contributor>
+        <dc:contributor>Institution de stage : Bibliothèque nationale de France (BNF)</dc:contributor>
+        <dc:date>2019</dc:date>
+        <dc:description xml:lang="fre">Résumé : ce mémoire se propose de faire un point sur les nouveaux enjeux de préservation inhérents aux fonds d’archives cinématographiques. La mutation des pratiques chez les
+            professionnels du cinéma comme au sein des archives et des cinémathèques demande à repenser la manière dont sont collectées, stockées, traitées, pérennisées, et valorisées les archives
+            audiovisuelles. En ce sens, le don fait par Amos Gitaï à la Bibliothèque nationale de France en 2018 de ses archives autour de l’assassinat du premier ministre Yitzhak Rabin est un cas d’école
+            qui soulève de nombreuses problématiques propres à ces fonds de typologie nouvelle. Le statut expérimental du traitement de cet ensemble documentaire en fait un terrain d’étude passionnant
+            qui a permis de mettre en place des réflexions multiformes et primordiales pour l’avenir des collections cinématographiques au sein de l’institution.</dc:description>
+        <dc:description>
+            Plan : 
+            Partie I – Quand le cinéma fait archive : de la création d’institutions dédiées aux bouleversements induits par l’arrivée du numérique
+            1. La naissance des archives cinématographiques : où et comment s’est constituée la mémoire du cinéma ? 
+            2. La préservation des fonds d’archives cinématographiques
+            2.2.1 Du film au numérique : la mutation des pratiques chez les professionnels du cinéma
+            2.2.2 Archiver des films à l’ère numérique
+            Partie II – Analyse et traitement d’un fonds d’archives cinématographiques nativement numérique : le cas de l’ensemble documentaire Amos Gitaï à la Bibliothèque Nationale de France
+            1. Présentation du contexte du stage 
+            2. L’objet du stage : le fonds Amos Gitaï
+            3. Présentation des missions et de la feuille de route 
+            4. Le stage et ses réalisations : analyse et traitement de l’ensemble documentaire Amos Gitaï (mars 2019 – juillet 2019) 
+            4.2.1 Etude fine du fonds avec Rivka Gitaï en vue du reclassement
+            4.2.2 Test d’outils de traitement pour fournir des préconisations quant à la future application de tri
+            4.2.2.1 La filière ADDN 
+            4.2.2.2 L’outil de tri
+            4.2.2.3 Test de l’outil Archifiltre
+            4.2.2.4 Test de l’outil OCTAVE 
+            4.2.2.5 Test de l’outil ePADD 
+            4.2.3 Analyse des métadonnées descriptives et techniques 
+            4.2.4 Reclassement du fonds 
+            4.2.5 Elaboration d’un plan de classement de l’arborescence haute 
+            4.2.6 Elaboration d’un instrument de recherche 
+            4.3.1 Entretiens menés avec des chercheurs en vue d’établir des stratégies de valorisation 
+            4.3.2 Préconisation relatives aux fichiers de montage vidéo : analyse des problématiques et propositions de stratégies de valorisation 
+            4.3.3 Préconisations relatives aux problématiques juridiques inhérentes aux fichiers numériques de l’ensemble documentaire 
+            5. Bilan du travail effectué 
+            Partie III – Traitement, pérennisation, valorisation des fichiers de montage audiovisuels dans l’ensemble documentaire Amos Gitaï 
+            1. Qu’est-ce que le montage audiovisuel ? 
+            2. En quoi la nouvelle typologie des fonds d’archives cinématographique ouvre t-elle de nouveaux champs aux chercheurs ? 
+            3. Des fichiers qui mettent en lumière les nouveaux enjeux de préservation propres aux
+            fonds cinématographiques 
+            3.2.1 Présentation du logiciel 
+            3.2.2 Les changements instaurés par Final Cut Pro X 
+            3.2.3 Quelques points de vocabulaire 
+            3.3.1 Un logiciel propriétaire incompatible avec un environnement Windows 
+            3.3.2 L’exigence d’une configuration suffisamment puissante pour le traitement des fichiers 
+            3.3.3 La mise à jour des bibliothèques 
+            3.3.4 Le stockage des médias sources 
+            3.3.5 La reconnexion des plans aux fichiers de données 
+            3.3.6 L’absence de rétrocompatibilité entre FCP7 et FCPX 
+            3.4.1 Propositions de stratégies de valorisation 
+            3.4.2 Tests d’exports et redéfinition des scénarios envisagés 
+            3.4.2.1 L’export du fichier master 
+            3.4.2.2 L’export des Edit Decision Lists (EDL Lists) 
+            3.4.2.3 Captures d’écran de la timeline 
+            3.4.2.4 Orientation vers une solution d’émulation complémentaire avec les
+            autres scénarios 
+            4. Quels choix ont été opérés dans d’autres institutions pour des fichiers de typologie
+            similaire ? 
+        </dc:description>
+        <dc:format/>
+        <dc:subject xml:lang="fre">Préservation numérique</dc:subject>
+        <dc:subject xml:lang="fre">Archives </dc:subject>
+        <dc:subject xml:lang="fre">Cinéma</dc:subject>
+        <dc:subject xml:lang="fre">Archives cinématographiques</dc:subject>
+        <dc:subject xml:lang="fre">Bibliothèque nationale de France</dc:subject>
+        <dc:subject xml:lang="fre">Valorisation</dc:subject>
+        <dc:subject xml:lang="fre">Pérennisation</dc:subject>
+        <dc:subject xml:lang="fre">Numérique natif</dc:subject>
+        <dc:subject xml:lang="fre">Technologies Numériques Appliquées à l'Histoire</dc:subject>
+        <dc:subject xml:lang="fre">Mémoire pour le master « Technologies numériques appliquées à l'histoire »</dc:subject>
+        <dc:type xml:lang="fre">Mémoire de master</dc:type>
+        <dc:type xml:lang="en">Master Thesis</dc:type>
+        <dc:language xml:lang="fre">Français</dc:language>
+        <dc:language xml:lang="en">French</dc:language>
+        <dc:rights>http://creativecommons.org/licenses/by-nc-nd</dc:rights>
+    </rdf:Description>
+</rdf:RDF>
