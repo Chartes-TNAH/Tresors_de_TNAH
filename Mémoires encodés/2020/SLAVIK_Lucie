@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <rdf:Description>
+        <dc:identifier>20TNAH16</dc:identifier>
+        <dc:creator>Lucie Slavik</dc:creator>
+        <dc:publisher>École nationale des Chartes (ENC)</dc:publisher>
+        <dc:title xml:lang="fre">L’édition numérique de correspondance, à travers deux applications sur des corpus du XIXe siècle : la correspondance de Frédéric Le Play (CRHXIX) et ELICOM (Labex OBVIL)</dc:title>
+        <dc:contributor>Tuteur de l'ENC : Thibault Clérice</dc:contributor>
+        <dc:contributor>Tuteurs de l'institution : Rémy Hême de Lacotte et Arthur Provenier</dc:contributor>
+        <dc:contributor>Institution de stage : Labex OBVIL (Observatoire de la vie littéraire) et CRHXIX (Centre de recherche d'histoire du XIXe siècle)</dc:contributor>
+        <dc:date>2020</dc:date>
+        <dc:description xml:lang="fre">Résumé : non fourni</dc:description>
+        <dc:description> 
+            Plan : 
+            I. Des projets portés par des institutions culturelles 
+            II. Penser l'édition numérique de correspondance 
+            III. L'apprentissage machine au cœur de l'acquisition des données 
+            IV. Traiter les données pour la réalisation des projets
+        </dc:description>
+        <dc:format/>
+        <dc:subject xml:lang="fre">Modélisation apprentissage machine</dc:subject>
+        <dc:subject xml:lang="fre">Centre de Recherche d’Histoire du XIXe siècle</dc:subject>
+        <dc:subject xml:lang="fre">Édition numérique de correspondance</dc:subject>
+        <dc:subject xml:lang="fre">ELICOM</dc:subject>
+        <dc:subject xml:lang="fre">Frédéric Le Play</dc:subject>
+        <dc:subject xml:lang="fre">Gallica</dc:subject>
+        <dc:subject xml:lang="fre">HTML</dc:subject>
+        <dc:subject xml:lang="fre">HTR</dc:subject>
+        <dc:subject xml:lang="fre">Index</dc:subject>
+        <dc:subject xml:lang="fre">Labex Obvil</dc:subject>
+        <dc:subject xml:lang="fre">OCR</dc:subject>
+        <dc:subject xml:lang="fre">ODD</dc:subject>
+        <dc:subject xml:lang="fre">Python</dc:subject>
+        <dc:subject xml:lang="fre">Relax NG</dc:subject>
+        <dc:subject xml:lang="fre">SEO</dc:subject>
+        <dc:subject xml:lang="fre">Sociologie</dc:subject>
+        <dc:subject xml:lang="fre">XML-TEI</dc:subject>
+        <dc:subject xml:lang="fre">XSLT</dc:subject>
+        <dc:subject xml:lang="fre">Technologies Numériques Appliquées à l'Histoire</dc:subject>
+        <dc:subject xml:lang="fre">Mémoire pour le master « Technologies numériques appliquées à l'histoire »</dc:subject>
+        <dc:type xml:lang="fre">Mémoire de master</dc:type>
+        <dc:type xml:lang="en">Master Thesis</dc:type>
+        <dc:language xml:lang="fre">Français</dc:language>
+        <dc:language xml:lang="en">French</dc:language>
+        <dc:rights>http://creativecommons.org/licenses/by-nc-nd</dc:rights>
+    </rdf:Description>
+</rdf:RDF>
