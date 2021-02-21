@@ -1,0 +1,419 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <rdf:Description>
+        <dc:identifier>19TNAH15</dc:identifier>
+        <dc:creator>Olivier Jacquot</dc:creator>
+        <dc:publisher>École nationale des Chartes (ENC)</dc:publisher>
+        <dc:title xml:lang="fre"> « C’est tout un monde à ressusciter » : édition électronique du manuscrit Mexicain 65-71 : Codex Ixtlilxóchitl de la Bibliothèque nationale de France</dc:title>
+        <dc:contributor>Tuteur de l'ENC : Ariane Pinche</dc:contributor>
+        <dc:contributor>Tuteurs de l'institution : néant</dc:contributor>
+        <dc:contributor>Institution de stage : néant, mémoire de recherche</dc:contributor>
+        <dc:date>2019</dc:date>
+        <dc:description xml:lang="fre"> Résumé :le projet d’édition électronique du manuscrit Mexicain 65-71 de la Bibliothèque nationale de France, dit Codex Ixtlilxóchitl, est l’occasion de le resituer au sein des fonds
+            américains de la bibliothèque et dans le contexte international des études mésoaméricaines.Le manuscrit n’ayant encore jamais fait l’objet d’une édition intégrale, il mérite uneédition et une étude per se, à laquelle nous ne prétendons pas avoir abouti. 
+            En effet, le temps imparti à l’exercice a interdit l’établissement d’une édition critique incluant les variantes des différents témoins et l’apparat des sources.
+            Un état des lieux du signalement, de la numérisation et de l’édition numérique à la BnF est proposé en regard d’un panorama plus général de l’édition des manuscrits
+            mexicains (précolombiens et coloniaux) à l’ère numérique, dans une dimension historique.En outre, ce travail a été l’occasion d’effectuer quelques mises au point qui ont paru
+            nécessaires en vue de situer les différentes étapes du chantier d’édition. Ainsi, un focus est proposé sur la question de l’encodage des glyphes ou logogrammes pictographiques
+            mésoaméricains ainsi que sur le traitement (description et indexation) des illustrations selon les normes, l’EAD et la TEI. Par ailleurs un aparté sur l’histoire du catalogage des
+            manuscrits nous a paru devoir être proposé pour nous éclairer quant aux choix mis en oeuvre par l’un et l’autre des langages.</dc:description>
+        <dc:description> 
+            Plan :
+            I Contexte international et état de l’art
+            1 Les études mésoaméricaines
+            1.1 Le concept 
+            1.2 Champ disciplinaire 
+            1.3 État de l’art 
+            1.3.1 Instituto Nacional de Antropología e Historia 
+            1.3.2 Museo Nacional de Antropología 
+            1.3.3 Universidad Nacional Autónoma de México, UNAM 
+            1.3.4 Nettie Lee Benson Latin American Collection 
+            1.3.5 Dumbarton Oaks Research Library and Collection 
+            1.3.6 The John Carter Brown Library 
+            1.3.7 American Antiquarian Society (AAS)
+            1.3.8 Society for American Archaeology (SAA) 
+            1.3.9 Foundation for the advancement of mesoamerican studies 
+            1.3.10 Mesoweb 
+            1.3.11 Ancient Americas 
+            2 L’américanisme
+            2.1 Définition 
+            2.2 Précocité des relations franco-mexicaines
+            2.3 Éveil de la curiosité des français 
+            2.3.1 Joseph Dombey (1742-1794)
+            2.3.2 Guillaume Dupaix (1750-1817)
+            2.3.3 Alexander von Humboldt (1769-1859) 
+            2.3.4 Rôle précurseur du Cabinet des médailles
+            2.3.4.1 Influence de l’abbé Barthélemy 
+            2.3.4.2 Influence d’Aubin-Louis Millin 
+            2.3.4.3 Le Muséum des Antiques, « centre des collections géographiques et ethnographiques » 
+            2.3.4.4 Concurrence avec le Muséum d’histoire naturelle ?
+            2.3.4.5 Accroissements du Muséum des Antiques 
+            2.3.4.6 Les collections américaines du Muséum des Antiques 
+            2.3.5 Le projet géo-ethnographique d’Edmé-François Jomard 
+            2.4 « Les prémices de l’archéologie mexicaine en France »
+            2.4.1 Une histoire d’hommes
+            2.4.2 Joseph Marius Alexis Aubin, « le Champollion de cette seconde Égypte » 
+            2.4.3 ... et d’institutions 
+            2.5 La Commission scientifique du Mexique (1864-1867) 
+            2.6 Le Musée mexicain du Louvre
+            2.7 Les expositions universelles de 1867 et de 1889 
+            2.7.1 L’Exposition universelle d’art et d’industrie de 1867 
+            2.7.2 L’Exposition universelle de 1889
+            2.8 L’Exposición Histórico-Americana de 1892 
+            2.9 Silence historiographique ?
+            2.10 Et après ? 
+            3 Les codex mésoaméricains
+            3.1 Des codex chez les Aztèques ? 
+            3.2 Caractérisation des codex mésoaméricains 
+            3.2.1 Stat Roma pristina nomine, nomina nuda tenemus 
+            3.2.2 Nomenclature 
+            3.2.3 Les noms des codex
+            3.2.4 Contenu des codex 
+            3.2.5 Supports de production 
+            3.2.6 Couleurs et pigments 
+            3.2.7 Les producteurs 
+            3.2.8 Lieux de conservation 
+            3.2.9 Fonction et usage des codex 
+            3.3 Le codex, objet-frontière ? 
+            3.4 Les codex au prisme des ondes et photons 
+            3.5 Un patrimoine éphémère 
+            3.5.1 Des supports fragiles 
+            3.5.2 Un usage temporaire 
+            3.6 Un patrimoine disparu 
+            3.7 Un ethnocide ? 
+            3.8 Les codex coloniaux 
+            3.9 Un patrimoine vivant ? 
+            3.10 Un trésor rare 
+            3.10.1 Les codex mixtèques 
+            3.10.2 Les codex mayas 
+            3.10.3 Les codex aztèques 
+            3.10.4 Les manuscrits coloniaux 
+            3.10.5 Le groupe Borgia 
+            3.11 Un patrimoine universel 
+            3.11.1 Une patrimonialisation ancienne
+            3.11.2 La question des restitutions
+            3.11.3 « En busca del alma nacional » : nationalisme et archéologie au Mexique 
+            3.11.4 Le marché des codex 
+            3.11.5 Registre des biens sensibles 
+            3.12 Répartition géographique
+            3.12.1 Mexique 
+            3.12.2 États-Unis 
+            3.12.2.1 Bancroft library 
+            3.12.2.2 New York Public Library 
+            3.12.2.3 Library of Congress 
+            3.12.2.4 Newberry library
+            3.12.2.5 Tulane university
+            3.12.2.6 Princeton University Library 
+            3.12.2.7 Hispanic Society of America
+            3.12.2.8 University of Pennsylvania 
+            3.12.2.9 University of Texas Library 
+            3.12.3 Europe 
+            3.12.3.1 Allemagne 
+            3.12.3.2 Vatican 
+            3.12.3.3 Pologne 
+            3.12.3.4 Autriche 
+            3.12.3.5 Grande-Bretagne
+            3.13 Les codex mexicains en France (hors de la Bibliothèque nationale de France)
+            3.13.1 L’Assemblée nationale 
+            3.13.2 Le Collège de France 
+            3.14 Les Fonds de la Bibliothèque nationale de France 
+            3.14.1 Le Fonds américain 
+            3.14.2 Le Fonds Angrand 
+            3.14.3 Le Fonds mexicain 
+            3.14.3.1 Descriptif du fonds 
+            3.14.3.2 Historique du fonds 
+            II Les codex et le tournant numérique
+            4 Le codex à l’époque de sa reproductibilité technique
+            4.1 Éditions et fac-similés 
+            4.1.1 Le fac-similé 
+            4.1.1.1 Le fac-similé, impensé de l’histoire du livre 
+            4.1.1.2 Rôles du fac-similé pour le bibliothécaire
+            4.1.1.3 Un document de substitution pour la communication 
+            4.1.1.4 Constituer une collection de fac-similés en bibliothèque 
+            4.1.2 Premiers éditeurs de documents 
+            4.1.2.1 Carlos Maria de Bustamante (1774-1848) 
+            4.1.2.2 Jean Henri Baradère (1792-1839 ?) 
+            4.1.2.3 Henri Ternaux-Compans (1807-1864) 
+            4.1.3 Éditions phares du XIX e siècle
+            4.1.3.1 Lord Kingsborough
+            4.1.3.2 Le trio Aubin-Boban-Goupil
+            4.1.3.3 Le duc de Loubat
+            4.1.4 Éditions phares du XX e siècle
+            4.1.4.1 Librería Anticuaria Guillermo Echániz
+            4.1.4.2 ADEVA 
+            4.1.4.3 Fondo de Cultura Económica (FCE) 
+            4.1.4.4 Testimonio Compañia Editorial 
+            4.2 Travaux électroniques précurseurs 
+            4.2.1 Sup-Infor 
+            4.2.2 Amoxcalli 
+            4.2.3 Tetlacuilolli 
+            4.2.4 Códices de México
+            4.3 Numérisation 
+            4.3.1 Identification 
+            4.3.2 Biblioteca Digital Mexicana (BDMx) 
+            4.3.3 Bibliothèque numérique mondiale (World Digital Library, WDL) 
+            4.3.4 Ancient Americas at LACMA 
+            4.3.5 Gallica 
+            5 Des éditions nativement numériques ?
+            5.1 Numérisation versus édition électronique
+            5.2 Aparté terminologique
+            5.3 L’édition électronique de codex mésoaméricains 
+            5.3.1 Códice Mendoza 
+            5.3.2 Códice de Dresde 
+            5.3.3 Códice Boturini
+            5.3.4 The Mapas Project 
+            5.4 Une édition savante électronique inexistante ? 
+            5.4.1 Samples of TEI texts 
+            5.4.2 Projects Using the TEI 
+            III Défis de l’édition numérique de codex
+            6 L’encodage des sources historiques
+            6.1 Universal Character Set 
+            6.2 Unicode 
+            6.3 Medieval Unicode Font Initiative (MUFI) 
+            6.4 Les apports de l’épigraphie
+            6.5 EpiDoc : Epigraphic Documents in TEI XML 
+            7 L’encodage des sources ni grecques ni latines
+            7.1 Gaiji 
+            7.2 Manuel de codage des textes hiéroglyphiques 
+            7.3 Encodage de l’écriture cunéiforme 
+            7.4 Encodage des sceaux-cylindres 
+            7.5 Encodage des pictogrammes dongba
+            8 La problématique des glyphes mésoaméricains
+            8.1 Caractère, graphème, idéogramme ou logogramme ? 
+            8.2 Essai de description 
+            8.3 L’encodage des écritures mésoaméricaines 
+            8.3.1 Textdatenbank und Wörterbuch des Klassischen Maya 
+            8.3.2 Multimedia Analysis and Access for Documentation and Decipherment of Maya Epigraphy (MAAYA) 
+            8.4 Tool for Systematic Annotation of Colonial K’iche’ (TSAK)
+            9 Outils d’encodage des caractères
+            9.1 DigiPal 
+            9.2 Projet PIM : Polices de caractères et inscriptions monétaires (Numipal)
+            9.3 Projet tranScriptorium 
+            9.4 Projet Oriflamms 
+            9.5 HIMANIS 
+            10 Petite histoire du catalogage des manuscrits
+            10.1 Paradoxe du catalogage des manuscrits 
+            10.2 Une formalisation progressive 
+            10.3 La fiche, « encore une invention que les historiens célèbrent peu » 
+            10.4 Les premières règles
+            10.5 Rôle de l’IRHT 
+            10.5.1 Acteur précurseur de la description informatique ?
+            10.5.2 Renoncement de l’IRHT 
+            10.6 L’école italienne 
+            10.7 Et puis vint la TEI 
+            10.8 Invention du XXI e siècle 
+            10.8.1 Signalement des fonds patrimoniaux 
+            10.8.2 Plan national de signalement des fonds patrimoniaux 
+            10.8.3 Projets en cours 
+            10.8.3.1 International Standard ManuScript Number 
+            10.8.3.2 Des titres uniformes pour les manuscrits ?
+            10.9 L’encodage des manuscrits 
+            10.10Le corps de doctrine en 2019 
+            10.10.1 Les normes archivistiques 
+            10.10.2 EAD : Encoded Archival Description 
+            10.10.3 Description des manuscrits et fonds d’archives modernes et contem-
+            porains en bibliothèque (DeMArch) 
+            10.10.4 EAC-CPF 
+            10.10.5 La modélisation XML-TEI 
+            10.10.5.1 Le module "msdescription" de la Text Encoding Initiative
+            IV La querelle des images
+            11 Iconodules et iconoclastes chez les codicologues
+            11.1 Ostracisme des philologues 
+            11.2 Description des images 
+            11.2.1 Une pratique anarchique ? 
+            11.2.2 Une norme de description des images
+            11.2.3 ...et des standards 
+            11.3 Quid de l’indexation des images ? 
+            11.3.1 Iconclass
+            11.3.2 Art and Architecture Thesaurus (AAT) 
+            11.3.3 « Le Garnier » 
+            11.3.4 « Répertoire d’autorité-matière encyclopédique et alphabétique unifié » (RAMEAU) 
+            11.3.5 « Thesaurus des images médiévales en ligne » (TIMEL) 
+            11.3.6 CIDOC CRM 
+            11.4 La classification 
+            11.4.1 Parenthèse historique
+            11.4.2 Classification et indexation automatiques des images
+            12 Le monde patrimonial
+            12.1 Section des sources iconographiques de l’IRHT 
+            12.2 Groupe de Recherches en iconographie médiévale
+            12.3 Répertoire Iconographique de la Littérature du Moyen Âge (RILMA) 
+            13 Les bases iconographiques de manuscrits
+            13.1 Medieval Illuminated Manuscripts 
+            13.2 Mandragore
+            13.3 Enluminures 
+            13.4 Liber Floridus
+            13.5 Iconothèque numérique de l’Université libre de Bruxelles 
+            14 Quelle description des images des codex ?
+            14.1 Impasse de l’indexation ? 
+            14.2 La solution du Content Based Image Retrieval (CBIR)
+            14.2.1 Broadside Ballads Online from the Bodleian Libraries 
+            14.2.2 Bildähnlichkeitssuche 
+            14.2.3 Autres projets
+            15 La question des glyphes
+            15.1 MayaPS 
+            15.2 Possibilités offertes par l’EAD 
+            15.3 Possibilités offertes par la TEI 
+            15.3.1 Graphics and Other Non-textual Components
+            15.3.2 Representation of Primary Sources 
+            15.3.3 Specific Elements for Graphic Images 
+            15.3.4 Module "msdescription" 
+            15.4 Associer texte et image 
+            15.4.1 Image Markup Tool 
+            15.4.2 Open Annotation / Web Annotation 
+            15.4.3 Les solutions IIIF 
+            V État des lieux du signalement, de la numérisation et de l’édition numérique à la BnF
+            16 Des manuscrits orientaux ? 
+            17 Le signalement 
+            17.1 Catalogues du fonds américain 
+            17.2 Catalogues du fonds Angrand 
+            17.3 Catalogues du fonds mexicain 
+            18 La valorisation 
+            19 La numérisation 
+            19.1 Aléas de la politique de numérisation
+            19.2 Vogue du manuscrit enluminé 
+            20 L’édition numérique
+            20.1 Candide ou l’Optimisme de Voltaire
+            20.2 L’Agenda 1906 de Marcel Proust 
+            VI Application de la description archivistique encodée
+            21 Les instruments de recherche EAD
+            21.1 Transcription 
+            21.2 Sources exploitées 
+            21.3 Sources électroniques exploitées 
+            22 Encodage des IR
+            22.1 Entre la norme
+            22.2 ... et le hors-norme 
+            VII Édition électronique du manuscrit mexicain 65-71 : Codex Ixtlilxóchitl de la Bibliothèque nationale de France
+            23 L’ecdotique des manuscrits mésoaméricains
+            23.1 Pratiques philologiques 
+            23.2 Les ressources généralistes disponibles
+            23.3 Les manuels d’encodage TEI 
+            23.4 P5 : Guidelines for Electronic Text Encoding and Interchange 
+            23.5 TEI By Example 
+            24 Étude codicologique : codicum descriptio
+            24.1 La description matérielle
+            24.1.1 Fiche signalétique 
+            24.1.2 Support 
+            24.1.3 Encre 
+            24.1.4 État du manuscrit 
+            24.1.5 Organisation du volume 
+            24.1.6 Préparation des pages
+            24.1.7 Écriture 
+            24.1.8 Mise en page 
+            24.1.9 Décoration 
+            24.1.10 Colophon 
+            24.1.11 Reliure 
+            24.1.12 Possesseurs et lecteurs 
+            24.1.13 Héraldique 
+            24.1.14 Étude paléographique 
+            24.1.14.1 Partie 1 : le « calendrier » illustré 
+            24.1.14.2 Partie 2 : les seigneurs « tetzcocans » 
+            24.1.14.3 Partie 3 : les planches commentées 
+            24.1.14.4 Partie 4 : le calendrier non illustré 
+            24.1.14.5 Bibliographie relative au manuscrit 
+            24.2 Le contenu
+            24.2.1 Partie 1 : le « calendrier illustré » 
+            24.2.2 Parties 2-3 : les planches additionnelles 
+            24.2.2.1 Partie 2 : les seigneurs « tetzcocans » 
+            24.2.2.2 Partie 3 : les planches commentées 
+            24.2.3 Partie 4 : le calendrier non illustré 
+            24.3 Histoire 
+            24.3.1 Origine 
+            24.3.2 Destinée 
+            25 La collation : collatio et la comparaison des témoins : recensio
+            25.1 Le codex Veytia 
+            25.2 Le codex Tudela
+            25.3 Le codex Magliabechiano
+            25.4 Le codex Florentinus 
+            25.5 Breve compendio de los ritos idolátricos 
+            26 L’établissement du texte : constitutio textus
+            26.1 La transcription du manuscrit 
+            26.1.1 L’océrisation 
+            26.1.2 L’Handwritten Text Recognition 
+            26.1.3 La saisie directe 
+            26.1.4 Le niveau de transcription 
+            26.1.5 Normas para la transcripción de documentos históricos 
+            26.2 Le choix d’une méthode d’édition scientifique 
+            26.3 Le choix du manuscrit maître 
+            27 L’encodage du texte : dispositio textus
+            27.1 La production des textes encodés 
+            27.2 Structure générale du texte 
+            27.3 Les métadonnées de l’édition 
+            27.3.1 Description de la structure du manuscrit "msItemStruct" 
+            27.3.2 Description du système de pagination "foliation" 
+            27.3.3 Description de l’état de conservation "condition" 
+            27.3.4 Description de la mise en page "layoutDesc" 
+            27.3.5 Description des écritures "handDesc"
+            27.3.6 Description de la reliure "bindingDesc" 
+            27.3.7 Description de l’historique "history"
+            27.3.8 Signalement de la bibliographie "model.biblLike"
+            27.3.9 Recensement des témoins "listWit"
+            27.3.10 Description du profil "profileDesc"
+            27.3.10.1 Liste structurée de personnes "particDesc"
+            27.3.10.2 Description du contexte "settingDesc"
+            27.3.10.3 Description de l’encodage "encodingDesc"
+            27.3.10.3.1 Césures "hyphenation"
+            27.3.10.3.2 Règles de correction "correction"
+            27.3.10.3.3 Règles de la normalisation "normalization"
+            27.3.10.3.4 Règles de traitement de la ponctuation "punctuation" 
+            27.3.10.3.5 Règles d’analyse "interpretation"
+            27.4 Les Fac-similés 
+            27.5 La structure générale du fichier 
+            27.5.1 Les divisions du manuscrit 
+            27.5.2 Les encadrés 
+            27.5.3 Les sauts de page 
+            27.5.4 Les sauts de ligne 
+            27.5.5 Les numéros de page 
+            27.5.6 Les mots étrangers 
+            28 L’encodage sémantique : apparatus criticus
+            28.1 L’indexation 
+            28.2 Mise en œuvre de l’indexation TEI 
+            29 L’encodage des illustrations : dispositio imaginis
+            29.1 Quel modèle de données ? 
+            29.2 Description de Jacqueline de Durand-Forest 
+            29.3 Description du projet Amoxcalli 
+            29.4 Description de Marc Thouvenot 
+            29.5 Le modèle de Mandragore 
+            29.6 Le modèle Initiale 
+            29.7 Le modèle Plateforme Ouverte du Patrimoine 
+            29.8 Le modèle choisi 
+            30 Documentation technique
+            30.1 Une Declaration DocType (DTD)
+            30.2 Spécification de la personnalisation (ODD) 
+            30.3 Un schéma Relax NG 
+            30.4 Une documentation HTML 
+            31 Transformation et visualisation des fichiers source
+            31.1 Transformation XSLT 
+            31.2 Visualisation 
+            31.2.1 MaX 
+            31.2.2 TAPAS 
+            31.2.3 TEICHI pour Drupal
+            31.2.4 TEI Boilerplate 
+            31.2.5 TeiDisplay pour Omeka 
+            31.2.6 MediaWiki 
+            31.2.7 Edition Visualization Technology 
+            31.2.8 Bootstrap
+        </dc:description>
+        <dc:format/>
+        <dc:subject xml:lang="fre">Manuscrits mexicains précolombiens</dc:subject>
+        <dc:subject xml:lang="fre">Text Encoding Initiative (langage de balisage)</dc:subject>
+        <dc:subject xml:lang="fre">XSL (langage de balisage)</dc:subject>
+        <dc:subject xml:lang="fre">XSLT (langage de programmation)</dc:subject>
+        <dc:subject xml:lang="fre">Description archivistique encodée</dc:subject>
+        <dc:subject xml:lang="fre">XML (langage de balisage)</dc:subject>
+        <dc:subject xml:lang="fre">Édition électronique</dc:subject>
+        <dc:subject xml:lang="fre">Édition critique</dc:subject>
+        <dc:subject xml:lang="fre">TEI</dc:subject>
+        <dc:subject xml:lang="fre">ISAD(G)</dc:subject>
+        <dc:subject xml:lang="fre">EAD</dc:subject>
+        <dc:subject xml:lang="fre">Instrument de recherche (IR)</dc:subject>
+        <dc:subject xml:lang="fre">Alva Ixtlilxochitl, Fernando de (1578 ?-1650)</dc:subject>
+        <dc:subject xml:lang="fre">Bernardino de Sahagún (1505 ?-1590 ; franciscain)</dc:subject>
+        <dc:subject xml:lang="fre">Technologies Numériques Appliquées à l'Histoire</dc:subject>
+        <dc:subject xml:lang="fre">Mémoire pour le master « Technologies numériques appliquées à l'histoire »</dc:subject>
+        <dc:type xml:lang="fre">Mémoire de master</dc:type>
+        <dc:type xml:lang="en">Master Thesis</dc:type>
+        <dc:language xml:lang="fre">Français</dc:language>
+        <dc:language xml:lang="en">French</dc:language>
+        <dc:rights>http://creativecommons.org/licenses/by-nc-nd</dc:rights>
+    </rdf:Description>
+</rdf:RDF>
