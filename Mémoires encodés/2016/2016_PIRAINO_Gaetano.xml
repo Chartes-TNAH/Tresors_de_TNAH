@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <rdf:Description>
+        <dc:identifier>16TNAH11</dc:identifier>
+        <dc:creator>Gaetano Piraino</dc:creator>
+        <dc:publisher>Ecole nationale des Chartes (ENC)</dc:publisher>
+        <dc:title xml:lang="fre">L’élaboration d’un Corpus numérique Gallica à l’aide du SGC Drupal,
+            suivie d’une digression sur la conversion EAD–DC et d’une édition électronique en TEI de
+            deux homélies de saint Avit (Latin 8913)</dc:title>
+        <dc:contributor>Tuteur de l'ENC : Elizabeth MacDonald</dc:contributor>
+        <dc:contributor>Tuteur de l'institution : Charlotte Denoël</dc:contributor>
+        <dc:contributor>Institution de stage : Bibliothèque nationale de France (BNF) (Paris) </dc:contributor>
+        <dc:date>2016</dc:date>
+        <dc:description xml:lang="fre">La Bibliothèque nationale de France apporte son concours
+            exceptionnel à l’imminente exposition du musée de Cluny sur les mérovingiens (du 19
+            octobre 2016 au 31 janvier 2017) par la participation au commissariat de deux de ses
+            conservateurs – Charlotte Denoël et Inès Villela-Petit – et à travers le prêt d’œuvres
+            phares issues du département des manuscrits et de celui des Médailles et Antiques, tous
+            deux très riche pour la période mérovingienne. Pour cette occasion, le service de la
+            coopération et de la médiation numérique au sein de la direction des collections de la
+            Bibliothèque nationale a aussi envisagé la création d’un corpus thématique numérique –
+            multi-formats et interdépartemental – pour enrichir les parcours des visiteurs de
+            l’exposition et leur fournir un appui pédagogique et des pistes de réflexions et
+            d’approfondissement. Un outil de médiation qui est à concevoir comme une sorte
+            d’exposition virtuelle qui s’ajoute en complément de l’exposition physique
+            traditionnelle, tout en respectant l’approche et la lecture des commissaires, mais en
+            même temps préservant le caractère pérenne du corpus et sa vocation à servir aussi les
+            usagers de la bibliothèque numérique Gallica dans leurs recherches sur cette aube du
+            Moyen-Âge. La réalisation d’une telle collection virtuelle s’appuie, du point de vue
+            technique, essentiellement sur l’exploitation du logiciel CMS open source Drupal. Le
+            mémoire retrace toutes les étapes de sa réalisation tant du point de vue de la recherche
+            documentaire que des moyens techniques déployés pour mener à bien le projet. À ce
+            chantier principal s’ajoutent, dans une deuxième section, des réflexions sur le
+            catalogage des manuscrits médiévaux conservés à la Bibliothèque et sur l’informatisation
+            des notices du catalogue BAM (BnF Archives et Manuscrits) et leur conversion dans un
+            format de métadonnées simple et internationalement reconnu comme le Dublin Core. Cela
+            permet d’accroître la visibilité des catalogues et des collections numérisées et
+            d’ailleurs la BnF se sert de notices en Dublin Core pour gérer la collection de
+            documents numérisés dans Gallica. Une dernière partie du travail est enfin consacrée à
+            la description et l’encodage d’un des manuscrits médiévaux sortis des réserves de la BnF
+            pour être exposés à cette occasion dans les vitrines du Musée de Cluny : il s’agit des
+            15 feuillets fragmentaires d’un témoin du VIe siècle des homélies de saint Avit en
+            écriture mérovingienne (Latin 8913). Ce célèbre papyrus représente un document
+            exceptionnel pour mieux comprendre l’histoire de cette « France avant la France » et
+            ébaucher un portrait de l’un de ses personnages clés, saint-Avit , artifex de la
+            christianisation d’une partie de la Gaule franque. Sa modélisation en XML-TEI devrait
+            permettre de mettre en valeur les potentialités de cette « grammaire » XML plébiscitée
+            par les universitaires et éventuellement suggérer de potentielles applications au
+            département des manuscrits pour la transcription et la description de certains
+            manuscrits jugés particulièrement importants. </dc:description>
+
+        <dc:description> 
+            SECTION I ..................................................................................................................................... 11  
+            Création  d’un  Corpus  numérique  dans  Gallica  ......................................................................................  12  
+            L’arborescence  du  corpus  .....................................................................................................................  15  
+            Les  CMS  .................................................................................................................................................  19  
+            Wordpress,  Joomla,  Drupal  ................................................................................................................  23  
+            Joomla ............................................................................................................................................... 25  
+            WordPress ......................................................................................................................................... 27  
+            Drupal ............................................................................................................................................... 29  
+            Installation  de  Drupal  ............................................................................................................................  32  
+            Configuration  de  Drupal  à  la  BnF  ..........................................................................................................  35  
+            La  chaîne  de  publication  ........................................................................................................................  39  
+            Le  contenu  du  corpus  ............................................................................................................................  40  
+            Page d’accueil du corpus   texte d’introduction : « Les Francs, précurseurs de l’Europe » .............. 44  
+            Le chapitre consacré à la Gaule avant la conquête franque ............................................................. 45  
+            La page consacrée à l’ethnogenèse des peuples germaniques, intitulée « Romains ou Barbares ? » .......................................................................................................................................................... 47  
+            Le pouvoir et ses manifestations ....................................................................................................... 49  
+            La persistance de la romanité en Gaule franque. ............................................................................. 51  
+            Une culture chrétienne ...................................................................................................................... 55  
+            Les pratiques funéraires .................................................................................................................... 58  
+            La diversité des écritures ................................................................................................................... 60  
+            Les trésors de l’art mérovingien ........................................................................................................ 63  
+            Historiographie ................................................................................................................................. 66  
+            Hagiographie .................................................................................................................................... 69  
+            Les souverains de la dynastie mérovingienne ................................................................................... 71  
+            Les deux galléries finales : « Imagerie mérovingienne » et « Collection de manuscrits mérovingiens » .................................................................................................................................. 74  
+            SECTION II .................................................................................................................................... 75  
+            Le  catalogue  informatisé  en  XML-EAD  ..................................................................................................  76  
+            Quelques  mots  à  propos  du  Dublin  Core  ..............................................................................................  77  
+            Le  catalogage  en  EAD  et  son  usage  à  la  BnF  ..........................................................................................  79  
+            Bref récapitulatif du catalogage à la BnF de l’abbé Bignon à l’informatisation .............................. 83  
+            Problématique  de  la  conversion  de  EAD  vers  Dublin  Core  ...................................................................  87  
+            Quelques  incidents  d’Interopérabilité  BAM  Z  Gallica  rencontrés  dans  l’affichage  des  notices  des  manuscrits  .............................................................................................................................................  90  
+            SECTION III ................................................................................................................................... 95  
+            La  Text Encoding Initiative   et  son  format  XML  .....................................................................................  96  
+            Alcimus  Ecdicius  Avitus,  évêque  de  Vienne  .........................................................................................  101  
+            Ses écrits ......................................................................................................................................... 104  
+            Le  manuscrit  BnF  Latin  8913  ...............................................................................................................  109  
+            Plan du contenu du manuscrit ........................................................................................................ 113  
+            Homélie XIX ..................................................................................................................................... 114  
+            Homélie XX ...................................................................................................................................... 117  
+            Transcription ................................................................................................................................... 119  
+            Écriture merovingienne ................................................................................................................... 122  
+            Affichage de la transcription en infobulle ....................................................................................... 126  
+            Mirador  et  le  groupe  IIIF  (International Image Interoperability Framework)  .................................  132  
+              
+        </dc:description>
+
+        <dc:format/>
+
+        <dc:subject xml:lang="fre">La Gaule Franque</dc:subject>
+        <dc:subject xml:lang="fre">Rois Mérovingiens</dc:subject>
+        <dc:subject xml:lang="fre">Saint Avit</dc:subject>
+        <dc:subject xml:lang="fre">Drupal</dc:subject>
+        <dc:subject xml:lang="fre">Corpus Gallica</dc:subject>
+        <dc:subject xml:lang="fre">XML-EAD</dc:subject>
+        <dc:subject xml:lang="fre">XML-TEI</dc:subject>
+        <dc:subject xml:lang="fre">Exposition Musée de Cluny (26 Octobre – 13 février 2017)</dc:subject>
+        <dc:subject xml:lang="fre">CMS</dc:subject>
+        <dc:subject xml:lang="fre">Technologies Numériques Appliquées à l'Histoire</dc:subject>
+        <dc:subject xml:lang="fre">Mémoire pour le master « Technologies numériques appliquées à
+            l'histoire »</dc:subject>
+        <dc:type xml:lang="fre">Mémoire de master</dc:type>
+        <dc:type xml:lang="en">Master Thesis</dc:type>
+        <dc:language xml:lang="fre">Français</dc:language>
+        <dc:language xml:lang="en">French</dc:language>
+        <dc:rights>http://creativecommons.org/licenses/by-nc-nd</dc:rights>
+    </rdf:Description>
+</rdf:RDF>
