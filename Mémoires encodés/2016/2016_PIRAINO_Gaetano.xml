@@ -52,50 +52,50 @@
             manuscrits jugés particulièrement importants. </dc:description>
 
         <dc:description> 
-            SECTION I ..................................................................................................................................... 11  
-            Création  d’un  Corpus  numérique  dans  Gallica  ......................................................................................  12  
-            L’arborescence  du  corpus  .....................................................................................................................  15  
-            Les  CMS  .................................................................................................................................................  19  
-            Wordpress,  Joomla,  Drupal  ................................................................................................................  23  
-            Joomla ............................................................................................................................................... 25  
-            WordPress ......................................................................................................................................... 27  
-            Drupal ............................................................................................................................................... 29  
-            Installation  de  Drupal  ............................................................................................................................  32  
-            Configuration  de  Drupal  à  la  BnF  ..........................................................................................................  35  
-            La  chaîne  de  publication  ........................................................................................................................  39  
-            Le  contenu  du  corpus  ............................................................................................................................  40  
-            Page d’accueil du corpus   texte d’introduction : « Les Francs, précurseurs de l’Europe » .............. 44  
-            Le chapitre consacré à la Gaule avant la conquête franque ............................................................. 45  
-            La page consacrée à l’ethnogenèse des peuples germaniques, intitulée « Romains ou Barbares ? » .......................................................................................................................................................... 47  
-            Le pouvoir et ses manifestations ....................................................................................................... 49  
-            La persistance de la romanité en Gaule franque. ............................................................................. 51  
-            Une culture chrétienne ...................................................................................................................... 55  
-            Les pratiques funéraires .................................................................................................................... 58  
-            La diversité des écritures ................................................................................................................... 60  
-            Les trésors de l’art mérovingien ........................................................................................................ 63  
-            Historiographie ................................................................................................................................. 66  
-            Hagiographie .................................................................................................................................... 69  
-            Les souverains de la dynastie mérovingienne ................................................................................... 71  
-            Les deux galléries finales : « Imagerie mérovingienne » et « Collection de manuscrits mérovingiens » .................................................................................................................................. 74  
-            SECTION II .................................................................................................................................... 75  
-            Le  catalogue  informatisé  en  XML-EAD  ..................................................................................................  76  
-            Quelques  mots  à  propos  du  Dublin  Core  ..............................................................................................  77  
-            Le  catalogage  en  EAD  et  son  usage  à  la  BnF  ..........................................................................................  79  
-            Bref récapitulatif du catalogage à la BnF de l’abbé Bignon à l’informatisation .............................. 83  
-            Problématique  de  la  conversion  de  EAD  vers  Dublin  Core  ...................................................................  87  
-            Quelques  incidents  d’Interopérabilité  BAM  Z  Gallica  rencontrés  dans  l’affichage  des  notices  des  manuscrits  .............................................................................................................................................  90  
-            SECTION III ................................................................................................................................... 95  
-            La  Text Encoding Initiative   et  son  format  XML  .....................................................................................  96  
-            Alcimus  Ecdicius  Avitus,  évêque  de  Vienne  .........................................................................................  101  
-            Ses écrits ......................................................................................................................................... 104  
-            Le  manuscrit  BnF  Latin  8913  ...............................................................................................................  109  
-            Plan du contenu du manuscrit ........................................................................................................ 113  
-            Homélie XIX ..................................................................................................................................... 114  
-            Homélie XX ...................................................................................................................................... 117  
-            Transcription ................................................................................................................................... 119  
-            Écriture merovingienne ................................................................................................................... 122  
-            Affichage de la transcription en infobulle ....................................................................................... 126  
-            Mirador  et  le  groupe  IIIF  (International Image Interoperability Framework)  .................................  132  
+            SECTION I
+            Création  d’un  Corpus  numérique  dans  Gallica 
+            L’arborescence  du  corpus  
+            Les  CMS  
+            Wordpress,  Joomla,  Drupal  
+            Joomla 
+            WordPress  
+            Drupal 
+            Installation  de  Drupal  
+            Configuration  de  Drupal  à  la  BnF
+            La  chaîne  de  publication  
+            Le  contenu  du  corpus
+            Page d’accueil du corpus   texte d’introduction : « Les Francs, précurseurs de l’Europe »  
+            Le chapitre consacré à la Gaule avant la conquête franque
+            La page consacrée à l’ethnogenèse des peuples germaniques, intitulée « Romains ou Barbares ? »
+            Le pouvoir et ses manifestations 
+            La persistance de la romanité en Gaule franque. 
+            Une culture chrétienne  
+            Les pratiques funéraires  
+            La diversité des écritures  
+            Les trésors de l’art mérovingien  
+            Historiographie  
+            Hagiographie 
+            Les souverains de la dynastie mérovingienne
+            Les deux galléries finales : « Imagerie mérovingienne » et « Collection de manuscrits mérovingiens »  
+            SECTION II
+            Le  catalogue  informatisé  en  XML-EAD   
+            Quelques  mots  à  propos  du  Dublin  Core 
+            Le  catalogage  en  EAD  et  son  usage  à  la  BnF 
+            Bref récapitulatif du catalogage à la BnF de l’abbé Bignon à l’informatisation
+            Problématique  de  la  conversion  de  EAD  vers  Dublin  Core 
+            Quelques  incidents  d’Interopérabilité  BAM  Z  Gallica  rencontrés  dans  l’affichage  des  notices  des  manuscrits  
+            SECTION III  
+            La  Text Encoding Initiative   et  son  format  XML  
+            Alcimus  Ecdicius  Avitus,  évêque  de  Vienne  
+            Ses écrits 
+            Le  manuscrit  BnF  Latin  8913  
+            Plan du contenu du manuscrit  
+            Homélie XIX 
+            Homélie XX 
+            Transcription 
+            Écriture merovingienne 
+            Affichage de la transcription en infobulle 
+            Mirador  et  le  groupe  IIIF  (International Image Interoperability Framework)  
               
         </dc:description>
 
