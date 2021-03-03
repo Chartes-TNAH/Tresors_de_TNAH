@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <rdf:Description>
+        <dc:identifier>18TNAH08</dc:identifier>
+        <dc:creator>Alexandre Gaudin</dc:creator>
+        <dc:publisher>Ecole nationale des Chartes (ENC)</dc:publisher>
+        <dc:title xml:lang="fre">
+            RÉALISER UNE ÉDITION MULTI-SUPPORT DU CORPUS DES INSCRIPTIONS DE LA FRANCE MÉDIÉVALE. 
+            Améliorer l’accès au domaine de l’épigraphie médiévale
+        </dc:title>
+        <dc:contributor>Tuteur de l'ENC : Jean-Baptiste Camps.</dc:contributor>
+        <dc:contributor>Tuteur de l'institution : Estelle Ingrand-Varenne.</dc:contributor>
+        <dc:contributor>
+            Centre d'études supérieures de civilisation médiévale (CESCM) (Poitiers). 
+        </dc:contributor>
+        <dc:date>2018</dc:date>
+        <dc:description xml:lang="fre">
+            Résumé : 
+            L’épigraphie médiévale, bien que discipline presque centenaire en Europe, ne semble que
+            très récente en France. A l’échelle européenne, d’importants groupes de travail ont été mis en
+            place, notamment en Allemagne. En France, le Corpus des Inscriptions de la France Médiévale
+            (CIFM) apparait comme un projet relativement récent. Depuis 1974, ce groupe de travail du
+            Centre d’Études Supérieures de la France Médiévale a pour charge de regrouper toutes les
+            inscriptions médiévales en France. Depuis une décennie, il a été décidé, pour donner de la
+            visibilité au projet, d’utiliser le numérique, comme cela a été fait en Allemagne ou en Italie.
+            Plusieurs projets ont été évoqués dans la fin des années 2000, mais c’est véritablement
+            avec l’ANR ORIFLAMMS que le tournant du numérique a été pris par le CIFM. Ce projet,
+            visant à l’étude de la forme des caractères et de leur évolution au Moyen Âge, a permis une
+            première utilisation de la TEI pour l’encodage des inscriptions utilisées dans le cadre de ce
+            projet (réalisé en lien avec l’Institut de Recherche et d’Histoire des Textes).
+            Le projet Titulus est le descendant direct de l’ANR ORIFLAMMS. Grâce à l’adaptation
+            du standard EpiDoc, les notices ont pu être encodées en XML, puis mises en ligne sur le site
+            internet du projet. Le numérique n’a cependant pas objectif à prendre le pas sur l’impression de
+            volumes, toutefois la création de ce volume doit être simplifiée.
+            A l’occasion de mon stage au sein du CESCM, à Poitiers, j’ai pu prendre la suite du travail
+            effectué par Clara Renedo-Mirambell quant à la mise en ligne des notices, et travailler sur
+            l’édition d’un volume imprimé directement issu des notices encodées. Ce volume, traitant des
+            inscriptions carolingiennes, doit être publié en 2019. Ces deux aspects du projet seront évoqués
+            dans ce mémoire, qui s’appuie principalement sur les aspects techniques, sans se détacher des
+            fondements de l’épigraphie et des traditions du Corpus des Inscriptions de la France Médiévale.
+        </dc:description>
+        <dc:description>
+            Plan :
+            I Etudier l’épigraphie médiévale et le projet TITULUS 15
+            1 Histoire et présentation de l’épigraphie 17
+            1.1 Qu’est-ce que l’épigraphie ? 
+            1.1.1 Définition 
+            1.1.2 Quel public pour l’inscription ?
+            1.1.3 Quelle forme peut prendre une inscription ? 
+            1.2 Histoire de l’épigraphie médiévale 
+            1.2.1 Des précédents de l’épigraphie pour d’autres époques 
+            1.2.2 L’épigraphie médiévale et les premiers travaux du XIX e 
+            1.2.3 « Le temps des entreprises collectives » : le XX e siècle 
+            1.2.4 Le Corpus des Inscriptions de la France Médiévale 
+            2 Le CIFM et le numérique 
+            2.1 Le numérique pour le Corpus : l’ANR Oriflamms 
+            2.1.1 Les objectifs d’ORIFLAMMS 
+            2.1.2 ORIFLAMMS et le CESCM 
+            3 Le projet TITULUS 27
+            3.1 Objectifs
+            3.2 Le projet TITULUS avant 2018
+            3.3 Déroulement du stage 
+            3.3.1 Objectifs 
+            3.3.2 Méthodologie employée 
+            4 Pré-requis : l’encodage des inscriptions 
+            4.1 Description d’une notice et des balises utilisées 
+            4.2 Problèmes soulevés lors de l’encodage 
+            II Comment générer automatiquement une édition imprimée à partir de notices en XML 
+            5 Comment était générée une édition imprimée 
+            5.1 Description de la composition d’un volume du Corpus des Inscriptions 
+            5.2 Mise en page grâce à un logiciel de traitement de texte
+            6 Transformer du XML en PDF 
+            6.1 Quel langage utiliser ? Comparatif du XSL-FO et du LaTeX
+            6.1.1 XSL-FO 
+            6.1.2 LaTeX 
+            6.1.3 Résultats
+            6.2 Le XeLaTeX, une spécification du LaTeX 
+            6.3 Créer une feuille de style pour automatiser la mise en page 
+            6.3.1 Objectifs de la feuille de style 
+            6.3.2 Pré-requis au fonctionnement de la feuille de style 
+            6.3.3 Structure de la feuille de style 
+            7 Générer des index et la bibliographie 
+            7.1 Pré-requis pour la création d’index stables 
+            7.1.1 Une liste de personnes et de fonctions créée à la main 
+            7.1.2 Faire une liste des lieux manuellement 
+            7.2 Récupérer les informations encodées
+            7.2.1 Description générale de la feuille de style utilisée
+            7.2.2 Index prosopographique
+            7.2.3 Index géographique 
+            7.2.4 Bibliographie
+            7.2.5 Chronologie des inscriptions
+            7.2.6 Lexique
+            7.3 Mettre en forme les informations 
+            7.3.1 Index prosopographique 
+            7.3.2 Index géographique 
+            7.3.3 Bibliographie 
+            7.3.4 Chronologie 
+            7.3.5 Lexique 
+            7.4 Limites de l’automatisation 
+            7.4.1 Une bibliographie à remanier 
+            7.4.2 Des index à nettoyer 
+            7.5 Intégrer les index dans le même fichier que le volume 
+            8 Améliorer la cartographie d’un volume 
+            8.1 Objectifs de la cartographie 
+            8.2 Quel outil choisir pour quels résultats ? 
+            8.3 Utiliser les requêtes SPARQL 
+            8.4 Intégrer la carte à l’édition imprimée
+            III Améliorer la diffusion numérique 
+            9 Fonctionnement de la mise en ligne des notices 
+            9.1 ExistDB 
+            9.2 L’avant mise en ligne 
+            9.3 Mise en ligne des notices 
+            9.3.1 Principe 
+            9.3.2 Description de la feuille de style
+            10 Améliorer la transformation des notices en HTML
+            10.1 Problème des lacunes et des manques : comment généraliser leur affichage ?
+            10.2 Enrichir les notices en lignes
+            10.2.1 Commentaires communs 
+            10.2.2 Affichage des lectures d’inscriptions issues d’autres lectures et d’une lecture in situ 
+            10.3 Comment intégrer des images ?
+            10.3.1 Constats
+            10.3.2 Quels outils utiliser pour alléger le poids des images ? 
+            10.3.3 Mettre en ligne les images
+            11 Améliorer l’expérience utilisateur
+            11.1 Développer une géolocalisation
+            11.1.1 Objectif de la carte
+            11.1.2 Quel outil utiliser pour créer cette carte ? 
+            11.1.3 Utiliser U-Map 
+            11.1.4 Amélioration des données existantes 
+            11.1.5 Intégrer et gérer les données
+            11.2 Faciliter la navigation
+            11.2.1 Rendre le site plus agréable 
+            11.2.2 Ouvrir le site vers l’extérieur 
+        </dc:description>
+        <dc:format/>
+        <dc:subject xml:lang="fre">épigraphie</dc:subject>
+        <dc:subject xml:lang="fre">Moyen Âge</dc:subject>
+        <dc:subject xml:lang="fre">inscriptions</dc:subject>
+        <dc:subject xml:lang="fre">TITULUS</dc:subject>
+        <dc:subject xml:lang="fre">Corpus des Inscriptions de la France Médiévale</dc:subject>
+        <dc:subject xml:lang="fre">TEI</dc:subject>
+        <dc:subject xml:lang="fre">édition imprimée</dc:subject>
+        <dc:subject xml:lang="fre">édition électronique</dc:subject>
+        <dc:subject xml:lang="fre">XML</dc:subject>
+        <dc:subject xml:lang="fre">XSLT</dc:subject>
+        <dc:subject xml:lang="fre">LaTeX</dc:subject>
+        <dc:subject xml:lang="fre">XeLaTeX</dc:subject>
+        <dc:subject xml:lang="fre">HTML</dc:subject>
+        <dc:subject xml:lang="fre">U-Map</dc:subject>
+        <dc:subject xml:lang="fre">SPARQL</dc:subject>
+        <dc:subject xml:lang="fre">Technologies Numériques Appliquées à l'Histoire</dc:subject>
+        <dc:subject xml:lang="fre">Mémoire pour le master « Technologies numériques appliquées à l'histoire »</dc:subject>
+        <dc:type xml:lang="fre">Mémoire de master</dc:type>
+        <dc:type xml:lang="en">Master Thesis</dc:type>
+        <dc:language xml:lang="fre">Français</dc:language>
+        <dc:language xml:lang="en">French</dc:language>
+        <dc:rights>http://creativecommons.org/licenses/by-nc-nd</dc:rights>
+    </rdf:Description>
+</rdf:RDF>
