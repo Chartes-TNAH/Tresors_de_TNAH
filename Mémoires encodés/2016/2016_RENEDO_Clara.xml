@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <rdf:Description>
+        <dc:identifier>16TNAH13</dc:identifier>>
+        <dc:creator>Clara Renedo Mirambell</dc:creator>
+        <dc:publisher>Ecole nationale des chartes (ENC)</dc:publisher>
+        <dc:title>L'édition électronique du corpus des inscriptions de la France médiévale : les projets ORIFLAMMS et TITULUS</dc:title>
+        <dc:contributor>Tuteur de l'ENC : Jean-Baptiste Camps</dc:contributor>
+        <dc:contributor>Tuteur de l'institution : Estelle Ingrand-Varennes</dc:contributor>
+        <dc:date>2016</dc:date>
+        <dc:description>Résumé : L’épigraphie médiévale est une discipline qui, avec seulement quelques décennies de vie, se trouve encore dans sa jeunesse. Elle ne compte pas avec des normes internationalement acceptées, et la plupart de ses grands projets d’édition sont encore en cours de développement. Il n’est donc pas étonnant que, dans le panorama actuel des sciences humaines, où depuis quelques années le numérique ne cesse de gagner du terrain, l’épigraphie médiévale soit encore presque invisible dans les réseaux virtuels, avec un seul grand projet de numérisation.
+Le groupe d’épigraphie du Corpus des Inscriptions de la France Médiévale (CIFM), le responsable de recenser et éditer les inscriptions médiévales sur le territoire français, se pose depuis une dizaine d’années la question de la numérisation, mais, à cause du manque de ressources et, surtout, de l'absence d’un modèle d’encodage qui s’adaptait bien aux particularités du corpus et de l’épigraphie médiévale, le projet n’avait jamais abouti. Cependant, cela a changé en 2014, lorsque le groupe a participé au projet ANR ORIFLAMMS (« Ontology Research, Image Features, Letterform Analysis on Multilingual Medieval Scripts »), piloté par l'Institut de Recherche et d'Histoire des Textes (IRHT) et ayant comme objectif  l’étude des formes graphiques de l'écriture au long du Moyen Âge selon leur contexte de production et leur langue à partir d’un traitement insubjectique préalable fondé, en partie, sur la Text Encoding Initiative (TEI), un modèle descriptif d’édition insubjectique pensé pour faciliter la pérennité et l’interopérabilité dans un subject qui convenait aux chercheurs humanistes. La découverte de la TEI et les premières tentatives d’encodage d’une sélection de notices du corpus ont donné l’impulse définitif aux membres du CIFM pour commencer leur propre projet d’édition et de mise en ligne du corpus.
+Lors de mon stage au CESCM, j’ai eu l’occasion de connaître de première main le projet ORIFLAMMS et de participer en sa phase finale, et, à partir de cette expérience, j’ai eu l’opportunité -et l’immense responsabilité- de poser les fondements pour le projet d’édition électronique du CIFM (qui s’appelle TITULUS). Ce mémoire, qui combine les travaux pratiques et la recherche, porte sur ces deux projets d’édition électronique de l’épigraphie médiévale, sur leurs spécificités et sur leurs convergences, mais, surtout, sur leurs apports à la discipline épigraphique.
+</dc:description>
+        <dc:description>
+            Plan :
+I Introduction à l'épigraphie médiévale et à l'édition électronique
+1. Épigraphie médiévale : une discipline assez jeune
+1.1. Qu'est-ce que l'épigraphie ?
+1.2. De l'épigraphie classique à l'épigraphie médiévale
+Épigraphie classique
+Épigraphie chrétienne
+Épigraphie médiévale
+1.3. Le développement de l'épigraphie médiévale
+2. L'entreprise du Corpus des Inscriptions de la France Médiévale
+2.1. La naissance du corpus en 1969
+2.2. Évolution jusqu'à nos jours
+2.3. Perspectives de futur
+3. Éditer l'épigraphie médiévale aujourd'hui : les enjeux de l'édition électronique
+3.1. L'édition savante : passé, présent et futur
+Qu'est-ce qu'une édition savante ?
+Perspectives futures : vers le numérique
+3.2. Pour une édition numérique stable, interchangeable et enrichie : la TEI
+II Le projet ORIFLAMMS
+1. Conception du projet
+1.1. Définition et objectifs
+1.2. Durée, pilotage et partenaires
+1.3. Méthodologie et développement
+2. Le rôle de l’équipe du CIFM dans Oriflamms
+2.1. Sélection des textes
+2.2. Encodage en TEI
+2.3. Traitement textometrique à travers le logiciel TXM
+2.4. Association texte-image à travers le logiciel Oriflamms
+2.5. Ontologie des formes, rendu et consultation
+3. Résultats et bilan
+III Le projet TITULUS
+1. Conception du projet
+1.1. Attentes et objectifs
+Attentes des responsables du CIFM
+Limitations du projet
+Objectifs du projet
+Objectifs du projet
+Objectifs du stage
+1.2. Définition de la méthodologie
+2. Développement du projet
+2.1. Encodage de la notice
+Du papier au numérique
+Caractéristiques de la notice dans l'édition papier du CIFM
+Règles d’encodage de la notice
+Règles de la transcription
+Règles de l’édition critique
+Règles de la traduction
+Adéquation de la notice au subject numérique
+Dématérialisation du support
+Changement de contexte
+Indexation
+Index alphabétique des mots
+Index alphabétique de noms propres
+Index chronologique
+Index thématique
+Index qui servent à décrire les caractéristiques de l'inscription
+Index qui décrivent des caractéristiques du texte
+Sélection d'un corpus représentatif de notices
+Création d'un modèle d'encodage des notices
+Les entités
+Description de l’encodage de la notice
+Structuration de l’encodage
+2.2. Élaboration d’un schéma propre
+2.3. Affichage : création d'une feuille de style XSL pour la notice
+3. Suite du projet
+3.1. Choix de la base de données
+3.2. Accessibilité aux notices
+3.3. Hébergement et mise en ligne du corpus
+4. Résultats et perspectives
+        </dc:description>
+        <dc:subject xml:lang="fre">épigraphie médiévale</dc:subject>
+        <dc:subject xml:lang="fre">inscription</dc:subject>
+        <dc:subject xml:lang="fre">Corpus des Inscriptions de la France Médiévale (CIFM)</dc:subject>
+        <dc:subject xml:lang="fre">ORIFLAMMS</dc:subject>
+        <dc:subject xml:lang="fre">TITULUS</dc:subject>
+        <dc:subject xml:lang="fre">paléographie</dc:subject>
+        <dc:subject xml:lang="fre">Text Encoding Initiative (TEI)</dc:subject>
+        <dc:subject xml:lang="fre">Text Encoding Initiative (TEI)</dc:subject>
+        <dc:subject xml:lang="fre">EpiDoc</dc:subject>
+        <dc:subject xml:lang="fre">ODD</dc:subject>
+        <dc:subject xml:lang="fre">XML</dc:subject>
+        <dc:subject xml:lang="fre">textométrie</dc:subject>
+        <dc:subject xml:lang="fre">TXM</dc:subject>
+        <dc:subject xml:lang="fre">notice</dc:subject>
+        <dc:subject xml:lang="fre">base de données native XML</dc:subject>
+        <dc:subject xml:lang="fre">XSLT</dc:subject>
+        <dc:subject xml:lang="fre">HTML</dc:subject>
+         <dc:subject xml:lang="fre">Technologies Numériques Appliquées à l'Histoire</dc:subject>
+        <dc:subject xml:lang="fre">Mémoire pour le master « Technologies numériques appliquées à l'histoire »</dc:subject>
+        <dc:type xml:lang="fre">Mémoire de master</dc:type>
+        <dc:type xml:lang="en">Master Thesis</dc:type>
+        <dc:language xml:lang="fre">Français</dc:language>
+        <dc:language xml:lang="en">French</dc:language>
+        <dc:rights>http://creativecommons.org/licenses/by-nc-nd</dc:rights>
+    </rdf:Description>
+</rdf:RDF>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <rdf:Description>
+        <dc:identifier>20TNAH10</dc:identifier>
+        <dc:creator>Edward J. Gray</dc:creator>
+        <dc:publisher>Ecole nationale des Chartes (ENC)</dc:publisher>
+        <dc:title xml:lang="fre">La conservation et la valorisation du patrimoine audiviosuel dans
+            les bibliothèques des écoles d’art : Le cas des captations des Ateliers de Rencontres de
+            l’École nationale supérieure des Arts Décoratifs</dc:title>
+        <dc:contributor>Tuteur de l'ENC : Julien Pilla</dc:contributor>
+        <dc:contributor>Tuteur de l'institution : Viviane Cattane</dc:contributor>
+        <dc:contributor>Institution de stage : École nationale supérieure des Arts
+            Décoratifs</dc:contributor>
+        <dc:date>2020</dc:date>
+        <dc:description xml:lang="fre">Résumé : Comment gérer ses collections audiovisuelles quand
+            on est une bibliothèque d’une école d’art ? Face aux contraintes et restrictions
+            budgétaires de personnel, comment valorise-t-on le patrimoine audiovisuel afin de le
+            rendre accessible au public ? Prenant le cas des Ateliers de Rencontres à l’École
+            nationale supérieure des Arts Décoratifs, une série des conférences et lieux d’échange
+            entre professionnels du monde des Arts Décoratifs et des élèves, ce mémoire explore les
+            enjeux du traitement d’une telle collection à l’ère numérique, comprenant la
+            conservation pérenne des supports physiques et numériques (qu’ils soient nativement
+            numériques ou non), ainsi que la valorisation de ce patrimoine à travers un modèle de
+            données accessible et interopérable et les solutions pour une annotation de ces
+            conférences.</dc:description>
+        <dc:description/>
+        <dc:format/>
+        <dc:subject xml:lang="fre">école nationale supérieure des Arts Décoratifs</dc:subject>
+        <dc:subject xml:lang="fre">ateliers de Rencontres</dc:subject>
+        <dc:subject xml:lang="fre">conférence</dc:subject>
+        <dc:subject xml:lang="fre">histoire de l'art</dc:subject>
+        <dc:subject xml:lang="fre">bibliothèque numérique</dc:subject>
+        <dc:subject xml:lang="fre">fonds patrimonial</dc:subject>
+        <dc:subject xml:lang="fre">annotation</dc:subject>
+        <dc:subject xml:lang="fre">numérisation</dc:subject>
+        <dc:subject xml:lang="fre">valorisation</dc:subject>
+        <dc:subject xml:lang="fre">audiovisuel</dc:subject>
+        <dc:subject xml:lang="fre">IIIF</dc:subject>
+        <dc:subject xml:lang="fre">Dublin Core</dc:subject>
+        <dc:subject xml:lang="fre">gestion de projet</dc:subject>
+        <dc:subject xml:lang="fre">école d'art</dc:subject>
+        <dc:subject xml:lang="fre">technologies Numériques Appliquées à l'Histoire</dc:subject>
+        <dc:subject xml:lang="fre">mémoire pour le master « Technologies numériques appliquées à
+            l'histoire »</dc:subject>
+        <dc:type xml:lang="fre">Mémoire de master</dc:type>
+        <dc:type xml:lang="en">Master Thesis</dc:type>
+        <dc:language xml:lang="fre">Français</dc:language>
+        <dc:language xml:lang="en">French</dc:language>
+        <dc:rights>http://creativecommons.org/licenses/by-nc-nd</dc:rights>
+    </rdf:Description>
+</rdf:RDF>

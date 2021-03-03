@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <rdf:Description>
+        <dc:identifier>20TNAH12</dc:identifier>
+        <dc:creator>Gwenaëlle Patat</dc:creator>
+        <dc:publisher>École nationale des Chartes (ENC)</dc:publisher>
+        <dc:title xml:lang="fre"> L’étude des livres d’heures à la lumière du numérique : le cycle de vie des données et des métadonnées – Analyser, Modéliser, Structurer, Visualiser.</dc:title>
+        <dc:contributor>Tuteur de l'ENC : Jean-Baptiste Camps</dc:contributor>
+        <dc:contributor>Tuteur de l'institution : Dominique Stutzmann</dc:contributor>
+        <dc:contributor>Institution de stage : Institut de recherche et d’histoire des textes (IRHT)</dc:contributor>
+        <dc:date>2020</dc:date>
+        <dc:description xml:lang="fre">Résumé : ce mémoire est le fruit d’une réflexion autour de problématiques abordées lors de mon stage à l’IRHT dans le cadre du projet HORAE, projet qui propose d’étudier les
+            pratiques religieuses de la fin du Moyen Âge à travers les livres d’heures. Le stage s’est concentré sur la production de données de qualité pour la recherche historique, ce qui
+            nous a amené à réfléchir aux stratégies de développement pour la structure, la modélisation, la conversion et la présentation ergonomique des données et des métadonnées, avec
+            le souci constant de garantir leur interopérabilité et leur pérennité. La participation au projet HORAE, qui s’inscrit pleinement dans les Humanités numériques, nous a permis de
+            cerner les apports, les limites et les promesses d’évolution du numérique dans la recherche en sciences humaines et sociales.</dc:description>
+        <dc:description> 
+            Plan : 
+            1 Structuration semi-automatique des métadonnées : allier quantité et qualité 
+            1.1 Analyse du document source : des données semi-structurées
+            1.1.1 Le travail minutieux d’un chanoine passionné 
+            1.1.2 Des notices papiers aux notices océrisées 
+            1.2 Définir le document cible : trouver l’équilibre entre contrainte et adaptation
+            1.2.1 Normaliser la description des manuscrits 
+            1.2.2 Des données structurées pour mieux exploiter les informations 
+            1.3 Encoder les métadonnées : une opération entièrement automatisable ?
+            1.3.1 Structurer les notices avec XSLT 
+            1.3.2 Structurer les notices avec Python 
+            1.3.3 Les possibilités offertes par l’apprentissage machine 
+            2 De l’importance de la modélisation des données
+            2.1 Modéliser les usages : restituer une réalité complexe 
+            2.1.1 Qu’est-ce que l’usage liturgique ? 
+            2.1.2 S’inspirer de modèles standardisés 
+            2.2 L’impossible import des données structurées en xml : bilan d’une tentative avortée et solutions alternatives 
+            2.2.1 Définir la structure du format cible en XML 
+            2.2.2 Structurer les données : du CSV à l’XML en passant par Python 
+            2.2.3 Raisons du choix d’importer les données depuis le format CSV
+            2.3 Possibilités en visualisation des données 
+            2.3.1 Géolocaliser les manuscrits et les usages 
+            2.3.2 Ce que nous disent les textes sur les dévotions 
+            3 L’annotation pour l’apprentissage machine : ce que le numérique apporte à l’analyse des sources
+            3.1 Gestion et management d’un projet en humanités numériques 
+            3.1.1 La collaboration IRHT, Teklia et LS2N 
+            3.1.2 Arkindex : une interface d’annotation en construction 
+            3.2 Le protocole d’annotation pour guider l’apprentissage machine
+            3.2.1 Analyser la structure des pages 
+            3.2.2 Le cas spécifique des calendriers 
+            3.2.3 Analyser le contenu textuel 
+            3.2.4 Des données structurées en masse : quand le numérique sert les humanités
+        </dc:description>
+        <dc:format/>
+        <dc:subject xml:lang="fre">Formats et structuration automatique des données et métadonnées</dc:subject>
+        <dc:subject xml:lang="fre">Livres d’heures</dc:subject>
+        <dc:subject xml:lang="fre">Usages liturgiques</dc:subject>
+        <dc:subject xml:lang="fre">Dévotion au Moyen-Âge</dc:subject>
+        <dc:subject xml:lang="fre">Gestion et management de projet en humanités numériques</dc:subject>
+        <dc:subject xml:lang="fre">Reconnaissance automatique de texte</dc:subject>
+        <dc:subject xml:lang="fre">Handwritten Text Recognition</dc:subject>
+        <dc:subject xml:lang="fre">Optical Character Recognition</dc:subject>
+        <dc:subject xml:lang="fre">Interopérabilité</dc:subject>
+        <dc:subject xml:lang="fre">XML-TEI</dc:subject>
+        <dc:subject xml:lang="fre">XSLT</dc:subject>
+        <dc:subject xml:lang="fre">ODD</dc:subject>
+        <dc:subject xml:lang="fre">Schematron</dc:subject>
+        <dc:subject xml:lang="fre">Python</dc:subject>
+        <dc:subject xml:lang="fre">Machine learning</dc:subject>
+        <dc:subject xml:lang="fre">Ergonomie</dc:subject>
+        <dc:subject xml:lang="fre">Modélisation</dc:subject>
+        <dc:subject xml:lang="fre">Base de données relationnelles</dc:subject>
+        <dc:subject xml:lang="fre">Technologies Numériques Appliquées à l'Histoire</dc:subject>
+        <dc:subject xml:lang="fre">Mémoire pour le master « Technologies numériques appliquées à l'histoire »</dc:subject>
+        <dc:type xml:lang="fre">Mémoire de master</dc:type>
+        <dc:type xml:lang="en">Master Thesis</dc:type>
+        <dc:language xml:lang="fre">Français</dc:language>
+        <dc:language xml:lang="en">French</dc:language>
+        <dc:rights>http://creativecommons.org/licenses/by-nc-nd</dc:rights>
+    </rdf:Description>
+</rdf:RDF>

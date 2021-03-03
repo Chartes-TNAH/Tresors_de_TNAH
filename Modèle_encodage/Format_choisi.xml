@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <rdf:Description>
+        <!--  tnahannée : identifiant-->
+        <dc:identifier>id de Yaboul</dc:identifier>
+        <!-- auteur = étudiant tnah -->
+        <dc:creator>Mylène Ravereau</dc:creator>
+        <!-- éditeur -->
+        <dc:publisher>Ecole nationale des Chartes (ENC)</dc:publisher>
+        <!-- titre = titre + sous-titres-->
+        <dc:title xml:lang="fre">L'uniformisation et la pérennité des informations numériques dans les bibliothèques numériques : 
+            le cas du logiciel libre Omeka</dc:title>
+        <!-- contributeur = tuteurs + lieu de stage  -->
+        <dc:contributor>Tuteur de l'ENC : X.</dc:contributor>
+        <dc:contributor>Tuteur de l'institution : .</dc:contributor>
+        <dc:contributor>Institution de stage : </dc:contributor>
+        <!-- année de soutenance -->
+        <dc:date>2016</dc:date>
+        <!--  Résumé-->
+        <dc:description xml:lang="fre">Résumé : La bibliothèque interuniversitaire de la Sorbonne a constitué un corpus de documents 
+            numériques depuis les années 2000. Au 12 février 2016, nous comptions 206 876 fichiers numériques qui n'étaient 
+            toujours pas exploités. Le but de ce stage, effectué dans le cadre du master « Technologies numériques appliquées 
+            à l'histoire » de l'École Nationale des Chartes, était donc triple. Il fallait uniformiser les données produites 
+            par la bibliothèque de la Sorbonne dont les pratiques ont évolué depuis le début du projet de numérisation, puis 
+            mettre en ligne ces documents numériques afin d'en faire profiter le plus grand nombre. Finalement, les informations 
+            numériques ainsi constituées devaient être pérennisées. Le stage de quatre mois (du 1er avril au 31 juillet 2016) 
+            effectué au Départements des Manuscrits et Livres Anciens de la bibliothèque et en collaboration étroite avec le 
+            Service Informatique et Systèmes d'Information a donc eu pour but de mettre à disposition des lecteurs ces documents 
+            numériques et de mettre en place un système de préservation pour les données numériques créées. Ce mémoire retrace donc 
+            toutes les réflexions et les choix autour de l'élaboration d'une bibliothèque numérique pour la bibliothèque de la 
+            Sorbonne.</dc:description>
+        <!--  Plan sans intro, annexes, sans résumés, conclusion, sans remerciements,bibliographie, liste des sigle, webographie etc-->
+        <dc:description>
+            Plan :
+            Première partie : De la bibliothèque de l'Université de Paris à la bibliothèque numérique : la mise en valeur de 
+            246 ans d'histoire du fonds 
+            Chapitre 1 : Les origines de la bibliothèque interuniversitaire de la Sorbonne 1. La création de la bibliothèque de 
+            l'Université de Paris : le leg de Jean-Gabriel de Montempuis 2. Les premiers locaux de la bibliothèque de l'Université 
+            de Paris : l'installation au collège Louis-le-Grand 3. La bibliothèque à la suite de la Révolution française 4. 
+            L'aménagement dans la nouvelle Sorbonne de Nénot 5. La bibliothèque aujourd'hui Chapitre 2 : La numérisation à la BIS : 
+            service de reproduction, protection et mise en valeur des collections 1. Les débuts de la numérisation à la BIS 2. Le 
+            corpus de documents numérisés et sa mise en valeur partielle 3. Les solutions envisagées pour la création de la 
+            bibliothèque numérique Chapitre 3 : Le choix d'Omeka 1. Une nouvelle direction et de nouvelles perspectives pour la 
+            bibliothèque numérique 2. Présentation d'Omeka 3. Les avantages d'Omeka 4. Les désavantages d'Omeka 5. Perspectives 
+            pour Omeka : la nouvelle version, Omeka S Deuxième partie : Les documents numériques : de l'uniformisation des noms 
+            de fichiers pour la pérennité des informations aux considérations des usages faits par les lecteurs Chapitre 4 : Le 
+            renommage des fichiers 1. Les préconisations des Archives de France 2. Les exemples de plan de nommage dans les autres 
+            bibliothèques françaises 3. Le plan de nommage des fichiers numériques de la bibliothèque de la Sorbonne 4. Le travail de 
+            renommage 5. La préservation des images après le renommage Chapitre 5 : Le format et la qualité des images à mettre en 
+            ligne 1. Présentation des formats TIFF, JPEG et PDF 2. Un choix dicté en partie par les outils proposés par Omeka 3. Le 
+            choix final des formats 4. La création des PDF et la mise en ligne 5. La mise en ligne des images Chapitre 6 : Quels 
+            droits associer aux images mises à disposition du public ? 1. Présentation des licences existantes 2. Une prise de décision 
+            en attente Troisième partie : Les métadonnées et leurs formats, un travail au service de la pérennité des informations 
+            Chapitre 7 : L'utilisation des métadonnées dans Omeka 1.Définition des métadonnées 2. Dublin Core : définition et usages 
+            3. Les autres métadonnées acceptées par Omeka Chapitre 8 : Des notices de catalogues Millenium et Calames aux notices 
+            d'Omeka 1. Les points communs entre les mappings 2. La conversion des données : de l'UNIMARC au Dublin Core 3. De l'EAD 
+            au Dublin Core Chapitre 9 : La pérennité des données créées pour la bibliothèque numérique 1. Les métadonnées 
+            administratives 2. Les liens pérennes des notices, la mise en place du système ARK 3. La conservation pérenne des 
+            fichiers numériques
+        </dc:description>
+        <!-- Balise non remplie mais pouvant être renseignée en cas de réutilisation du projet-->
+        <dc:format/>
+        <!-- Mots clefs 
+        obligatoires:
+        <dc:subject xml:lang="fre">Technologies Numériques Appliquées à l'Histoire</dc:subject>
+        <dc:subject xml:lang="fre">Mémoire pour le master « Technologies numériques appliquées à l'histoire »</dc:subject>
+        <dc:type xml:lang="fre">Mémoire de master</dc:type>
+        <dc:type xml:lang="en">Master Thesis</dc:type>
+        <dc:language xml:lang="fre">Français</dc:language>
+        <dc:language xml:lang="en">French</dc:language>
+        <dc:rights>http://creativecommons.org/licenses/by-nc-nd</dc:rights>
+        -->
+        <dc:subject xml:lang="fre">bibliothèque interuniversitaire de la Sorbonne</dc:subject>
+        <dc:subject xml:lang="fre">bibliothèque numérique</dc:subject>
+        <dc:subject xml:lang="fre">Omeka</dc:subject>
+        <dc:subject xml:lang="fre">métadonnées</dc:subject>
+        <dc:subject xml:lang="fre">Dublin Core</dc:subject>
+        <dc:subject xml:lang="fre">fichiers numériques</dc:subject>
+        <dc:subject xml:lang="fre">mapping de données</dc:subject>
+        <dc:subject xml:lang="fre">Technologies Numériques Appliquées à l'Histoire</dc:subject>
+        <dc:subject xml:lang="fre">Mémoire pour le master « Technologies numériques appliquées à l'histoire »</dc:subject>
+        <dc:type xml:lang="fre">Mémoire de master</dc:type>
+        <dc:type xml:lang="en">Master Thesis</dc:type>
+        <dc:language xml:lang="fre">Français</dc:language>
+        <dc:language xml:lang="en">French</dc:language>
+        <dc:rights>http://creativecommons.org/licenses/by-nc-nd</dc:rights>
+    </rdf:Description>
+</rdf:RDF>
+

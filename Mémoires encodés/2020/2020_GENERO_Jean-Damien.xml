@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <rdf:Description>
+        <dc:identifier>20TNAH09</dc:identifier>
+        <dc:creator>Jean-Damien Généro</dc:creator>
+        <dc:publisher>Ecole nationale des Chartes (ENC)</dc:publisher>
+        <dc:title xml:lang="fre">
+            Valoriser le traitement automatique des données : Le cas des Ouvriers des deux mondes
+        </dc:title>
+        <dc:contributor>Tuteur de l'ENC : Vincent Jolivet.</dc:contributor>
+        <dc:contributor>Tuteur de l'institution : Alix Chagué.</dc:contributor>
+        <dc:contributor>
+            Institution de stage : Institut national de recherche en informatique et en automatique (INRIA/Time us) (Paris).
+        </dc:contributor>
+        <dc:date>2020</dc:date>
+        <dc:description xml:lang="fre">
+            Résumé : 
+            Le programme ANR Time Us s’intéresse aux ouvriers et aux ouvrières du textile de la
+            fin du xviii e siècle au début du xx e siècle et rassemble pour cela une large documentation
+            composée de documents manuscrits et d’imprimés. Au sein de ces derniers se trouvent
+            les monographies de familles des Ouvriers des deux mondes publiées de 1857 à 1930 par
+            Frédéric Le Play (1806-1882) et la Société internationale des études pratiques d’économie
+            sociale.
+            Ce corpus de treize volumes, composé de 114 monographies, a été transcrit et struc-
+            turé automatiquement au format XML-TEI par un programme utilisant les logiciels d’OCR
+            Transkribus et Kraken, et le langage de programmation Python. Le présent mémoire se
+            propose d’analyser les actions menées au cours d’un stage de fin d’études pour valori-
+            ser les résultats de cette structuration automatique, incluant son contrôle, la correction
+            des erreurs et l’usage des humanités numériques pour implémenter un encodage scienti-
+            fique permettant l’exploitation des données et des transcriptions par les chercheurs et les
+            chercheuses.
+        </dc:description>
+        <dc:description>
+            Plan :
+            I Un corpus déjà structuré
+            1Un corpus d’imprimés
+            1.1 Une longue publication
+            1.2 La structure logique des monographies
+            1.3 Continuité et discontinuité
+            2 Des numérisations multiples
+            2.1 Les volumes de la Bibliothèque nationale de France 
+            2.2 Les volumes d’Internet Archive
+            2.3 Choix du corpus à numériser
+            3 Un encodage automatique
+            3.1 Choix de l’automatisation
+            3.2 Le script LSE-OD2M 
+            3.2.1 Segmentation 
+            3.2.2 Reconnaissance des caractères 
+            3.2.3 Structuration
+            3.3 Les fichiers XML-TEI
+            II Une structuration à reprendre 
+            4 Outils, méthodologie et gestion du projet 
+            4.1 Outils de développement
+            4.1.1 GitLab 
+            4.1.2 PyCharm et Oxygen 
+            4.2 Espaces de discussion
+            4.2.1 Mattermost
+            4.2.2 Issues et merge requests sur GitLab 
+            4.3 Feuille de route
+            4.3.1 Les missions du stage
+            4.3.2 Une gestion de projet ?
+            5 Contrôle du découpage des fichiers source
+            5.1 Les différents niveaux d’encodage 
+            5.2 Vérification de la cohérence documentaire
+            5.2.1 Erreur lors de la segmentation
+            5.2.2 Défaut de transcription 
+            5.2.3 Cartographie, identification et inclusion
+            5.3 Vérification de l’encodage minimal 
+            6 Découpages éditorial et sémantique
+            6.1 Découpage éditorial
+            6.1.1 Niveau des titres (&lt;head&gt;) 
+            6.1.2 Niveau des divisions (&lt;div&gt;)
+            6.1.3 Tabula rasa 
+            6.2 Découpage sémantique 
+            6.3 Validation du schéma XML-TEI 
+            III Des données à valoriser
+            7 Données graphiques, données chiffrées
+            7.1 Le lien entre le texte et les images du texte 
+            7.2 Les données graphiques dans le flux textuel 
+            7.3 Les tableaux : images ou données ? 
+            8 Données textuelles, données scientifiques
+            8.1 La qualité de l’ocr 
+            8.2 Indexer les individus 
+            8.3 Corriger les transcriptions ? 
+            9 Une valorisation plurielle
+            9.1 Édition papier, édition numérique 
+            9.2 Retrouver les fascicules dans le volume 
+            9.3 Quid de la donnée ?
+        </dc:description>
+        <dc:format/>
+        <dc:subject xml:lang="fre">XML</dc:subject>
+        <dc:subject xml:lang="fre">TEI</dc:subject>
+        <dc:subject xml:lang="fre">Python</dc:subject>
+        <dc:subject xml:lang="fre">traitement automatique des données</dc:subject>
+        <dc:subject xml:lang="fre">transcription automatique</dc:subject>
+        <dc:subject xml:lang="fre">édition numérique</dc:subject>
+        <dc:subject xml:lang="fre">ALTO</dc:subject>
+        <dc:subject xml:lang="fre">ocr</dc:subject>
+        <dc:subject xml:lang="de">Kraken</dc:subject>
+        <dc:subject xml:lang="de">Transkribus</dc:subject>
+        <dc:subject xml:lang="en">GitLab</dc:subject>
+        <dc:subject xml:lang="fre">Frédéric Le Play</dc:subject>
+        <dc:subject xml:lang="fre">Les Ouvriers des deux mondes</dc:subject>
+        <dc:subject xml:lang="fre">enquêtes sociologiques</dc:subject>
+        <dc:subject xml:lang="fre">monographies de familles</dc:subject>
+        <dc:subject xml:lang="en">Time Us</dc:subject>
+        <dc:subject xml:lang="fre">Inria</dc:subject>
+        <dc:subject xml:lang="fre">Technologies Numériques Appliquées à l'Histoire</dc:subject>
+        <dc:subject xml:lang="fre">Mémoire pour le master « Technologies numériques appliquées à l'histoire »</dc:subject>
+        <dc:type xml:lang="fre">Mémoire de master</dc:type>
+        <dc:type xml:lang="en">Master Thesis</dc:type>
+        <dc:language xml:lang="fre">Français</dc:language>
+        <dc:language xml:lang="en">French</dc:language>
+        <dc:rights>http://creativecommons.org/licenses/by-nc-nd</dc:rights>
+    </rdf:Description>
+</rdf:RDF>
