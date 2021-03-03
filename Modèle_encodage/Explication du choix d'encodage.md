@@ -17,5 +17,4 @@ Ce nombre minimal de possibilités d'encodage nous permet de rendre plus claires
 Toute balise autofermante signifie forcément que les informations qui devraient y figurer n'ont pas été fournies par l'étudiant.
 Il y a une exception. Pour la balise <format/>, elle est indiquée autofermante pour qu'elle puisse être utilisée en cas de réutilisation des données de ce dépôt.
 
-Lorsque les informations encodées le demandent, nous ajoutons tout de même certains compléments, afin de ne pas rendre tout cela incompréhensible. C'est le cas pour différencier les contributeurs qui ont été tuteurs de stage professionnels ou internes à l'Ecole nationale des chartes : nous avons ajouté la mention "Tuteur de l'ENC" ou "Tuteur de l'institution".
-   
+Lorsque les informations encodées le demandent, nous ajoutons tout de même certains compléments, afin de ne pas rendre tout cela incompréhensible. C'est le cas pour différencier les contributeurs qui ont été tuteurs de stage professionnels ou internes à l'Ecole nationale des chartes : nous avons ajouté la mention "Tuteur de l'ENC" ou "Tuteur de l'institution". C'est également le cas pour différencier les deux balises <description> : il y en a une pour le résumé et une autre pour le plan.
