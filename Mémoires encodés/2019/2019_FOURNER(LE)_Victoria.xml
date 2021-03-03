@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <rdf:Description>
+        <dc:identifier>19TNAH13</dc:identifier>
+        <dc:creator>Victoria Le Fourner</dc:creator>
+        <dc:publisher>Ecole nationale des Chartes (ENC)</dc:publisher>
+        <dc:title xml:lang="fre">
+            Trouver et appliquer des règles communes pour la structuration automatique d’un 
+            corpus hétérogène, l’exemple des compte rendus du Conseil des Prud’hommes au XIXe siècle.
+        </dc:title>
+        <dc:contributor>Tuteur de l'ENC : Ariane Pinche.</dc:contributor>
+        <dc:contributor>Tuteur de l'institution : Eric de la Clergerie.</dc:contributor>
+        <dc:contributor>Tuteur de l'institution : Alix Chagué.</dc:contributor>
+        <dc:contributor>Institut national de recherche en informatique et en automatique (INRIA) (Paris)</dc:contributor>
+        <dc:date>2019</dc:date>
+        <dc:description xml:lang="fre">
+            Résumé :
+            Ce mémoire a été réalisé en vue de l’obtention du diplôme de Master 2 « Technologies numériques appliquées 
+            à l’histoire » de l’École nationale des chartes. Il a été rédigé à la suite d’un stage de quatre mois au 
+            sein de l’équipe ALMAnaCH d’Inria, et dont le déroulé s’est inscrit dans le cadre de Time Us. Ce projet de 
+            recherche pluri-institutionnel porte sur l’histoire de l’industrie du textile en France (fin XVIIe-début 
+            XXe siècles) et sur la reconstitution des budget temps des ouvriers et ouvrières du textile. Time Us explore 
+            également l’utilisation d’outils informatique pour réaliser cette recherche. Ce mémoire étudie le traitement 
+            informatique appliqué à une partie du corpus de Time Us, de la structuration à l’éditorialisation. Il s’agit 
+            d’une analyse critique des enjeux, stratégies et résultats envisagés dans le cadre du projet Time Us autant 
+            que du stage, dont le but est de rendre compte d’un exemple de projet et de développement s’inscrivant dans 
+            le cadre des humanités numériques.
+        </dc:description>
+        <dc:description>
+            Plan:
+            I.Un projet interdisciplinaire novateur
+            A L’objectif de Time Us
+            1.Naissance du projet
+            1.2  Son but 
+            1.3  Le processus de travail
+            2  . . . expliqué par une historiographie riche
+            2.1  Comprendre l’industrialisation
+            2.2  La place des femmes
+            2.3  Comparer les rémunérations des hommes et des femmes
+            3  . . . et porté par une équipe variée : les institutions et les membres du projet 
+            3.1  Inria et ALMAnaCH
+            3.2  ICT et LARHRA : une collaboration directe pour les enjeux numériques
+            3.3  IRHIS, TELEMMe, CMH 
+            B Des sources hétérogènes
+            1  Un corpus très varié collecté
+            1.1  Les sources judiciaires
+            1.2  Les sources du monde de l’entreprise
+            1.3  Les sources économiques
+            2  Numériser et stocker : des outils multiples et des choix à faire
+            2.1  Numérisation
+            2.2  Uniformisation
+            2.3  Stockage
+            3  Des sources transcrites pour les besoins du projet
+            3.1  Transcription manuelle
+            3.2  Transcription automatique
+            3.3  Un bilan très mitigé
+            C  Travailler sur le conseil des prud’hommes
+            1  Le conseil des prud’hommes, histoire d’une institution peu ou mal connue
+            2  Contexte de production des sources
+            2.1  La juridiction prud’homale et l’industrie textile à Paris
+            2.2  Conseil des prud’hommes et industrie du textile à Lyon
+            3  La presse lyonnaise et les minutes des greffes prud’homales : une typologie des sources
+            3.1  Des minutes manuscrites issues d’une institution juridique 
+            3.2  Des articles imprimés issus de la presse ouvrière
+            II  De l’annotation manuelle vers l’automatisation : de la TEI au TAL
+            A Annoter manuellement
+            1  Analyse des transcriptions et définition du modèle d’annotation 
+            1.1  Annoter des entités nommées 
+            1.2  La Text Encoding Initiative : un format pivot pour l’annotation de données 
+            1.3  Un guide d’annotation à reprendre
+            2  Élaboration de règles d’annotation
+            2.1  Travailler sur un set de fichiers tests
+            2.2  Exploiter les recommandations des historiens
+            2.3  Des projets d’annotation similaires à Time Us
+            3  Des divergences dans les sources : annoter la structure 
+            3.1  Une structure trop hétérogène pour la presse ouvrière
+            3.2  Une structuration homogène et fine pour les minutes
+            B Valider l’annotation grâce à un schéma
+            1  Un ou des ODD ?
+            1.1  Définition de l’ODD
+            1.2  Deux ODD
+            1.3  Chaînage d’ODD ou ODD chaining
+            2  Des contraintes hétérogènes
+            2.1  Régler les modalités d’apparition d’un élément
+            2.2  Schematron : un schéma adapté au contexte
+            2.3  Des contraintes spécifiques aux types de sources
+            3  Appliquer l’ODD aux fichiers
+            3.1  Réaliser des tests unitaires
+            3.2  Une documentation encore floue ?
+            3.3  Création d’un set d’éléments personnalisés pour le projet Time Us dans Transkribus
+            C Automatiser l’encodage de la structuration
+            1  Nettoyer le fichier
+            1.1 ExportFromTranskribus et TEITransformations
+            1.2  Des fonctions de nettoyage
+            1.3  Un script principal commun pour l’écriture des fichiers 
+            2  Annotation de la structure pour la presse
+            2.1  Automatiser la structuration jusqu’au niveau de l’audience
+            2.2  Structurer les affaires ?
+            2.3  Ajouter des métadonnées supplémentaires
+            3  Annotation de la structure pour les manuscrits
+            3.1  Les expressions régulières pour repérer des formules établies
+            3.2  Automatiser la structuration des minutes pour une indexation claire
+            3.3  Des ajouts au script pour la visualisation
+            III  Éditorialiser un corpus historique : définition et enjeux 
+            A Construire une lecture proche et distante grâce une indexation précise
+            1  Osciller entre lecture proche et lecture distante : quels points d’entrée dans le texte ?
+            1.1  La presse lyonnaise
+            1.2  Les procès-verbaux manuscrits parisiens 
+            1.3  La question de la temporalité
+            2  Quels publics ? 
+            2.1  Des historiens spécialistes
+            2.2  Élargir le public
+            3  Choisir un langage adapté 
+            3.1  Le choix d’HTML plutôt que LaTeX 
+            3.2  Guider l’indexation
+            B Éditorialiser le corpus grâce à une transformation XSLT vers HTML 
+            1  Une technologie très souple
+            1.1  Définition d’XSLT 
+            1.2  Fonctionnement des règles
+            1.3  Limites et critique 
+            2  Une transformation vers HTML pour les procès-verbaux manuscrits
+            2.1  Modifications mineures du fichier 
+            2.2  Création de variables dynamiques dans une triple boucle 
+            2.3  Ajouter des informations supplémentaires pour l’éditorialisation 
+            3  Éditorialiser le corpus de la presse ?
+            3.1  Contextualiser les titres de journaux 
+            3.2  Créer une page web par article
+            3.3  Mettre en avant les métadonnées
+            C Les possibilités du numérique pour la recherche en histoire
+            1  Aller plus loin dans l’éditorialisation 
+            1.1  Vers la géolocalisation ?
+            1.2  Des métadonnées davantage mises en avant
+            1.3  Insertion d’image des sources
+            2  Reconnaissance des entités nommées prévues dans l’ODD et structuration plus fine
+            2.1  French Metagrammar (FRMG)
+            2.2  Entityfishing
+            2.3  Segmenteur-Etiqueteur Markovien (SEM) 
+            3  Faire des requêtes et établir des statistiques automatiquement
+            3.1  Des requêtes avec préférence structurelles
+            3.2  Élaborer de graphes et de statistiques ?
+        </dc:description>
+        <dc:format/>
+        <dc:subject xml:lang="fre">structuration automatique de corpus</dc:subject>
+        <dc:subject xml:lang="fre">Corpus hétérogène</dc:subject>
+        <dc:subject xml:lang="fre">TAL</dc:subject>
+        <dc:subject xml:lang="fre">annotation sémantique</dc:subject>
+        <dc:subject xml:lang="fre">éditorialisation</dc:subject>
+        <dc:subject xml:lang="fre">XML-TEI</dc:subject>
+        <dc:subject xml:lang="fre">ODD</dc:subject>
+        <dc:subject xml:lang="fre">Compte-rendu</dc:subject>
+        <dc:subject xml:lang="fre">Archives judiciaires</dc:subject>
+        <dc:subject xml:lang="fre">industrie du textile</dc:subject>
+        <dc:subject xml:lang="fre">Conseil des Prud’hommes</dc:subject>
+        <dc:subject xml:lang="fre">XIXe</dc:subject>
+        <dc:subject xml:lang="fre">Technologies Numériques Appliquées à l'Histoire</dc:subject>
+        <dc:subject xml:lang="fre">Mémoire pour le master « Technologies numériques appliquées à l'histoire »</dc:subject>
+        <dc:type xml:lang="fre">Mémoire de master</dc:type>
+        <dc:type xml:lang="en">Master Thesis</dc:type>
+        <dc:language xml:lang="fre">Français</dc:language>
+        <dc:language xml:lang="en">French</dc:language>
+        <dc:rights>http://creativecommons.org/licenses/by-nc-nd</dc:rights>
+    </rdf:Description>
+</rdf:RDF>
