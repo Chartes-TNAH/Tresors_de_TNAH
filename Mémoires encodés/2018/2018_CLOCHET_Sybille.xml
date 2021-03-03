@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <rdf:Description>
+        <dc:identifier>18TNAH05</dc:identifier>
+        <dc:creator>Sybille Clochet</dc:creator>
+        <dc:publisher>Ecole nationale des Chartes (ENC)</dc:publisher>
+        <dc:title xml:lang="fre">
+            Un exemple d’édition numérique d’une source copte : 
+            Encodage XML-TEI et visualisation au travers de l’outil EVT
+        </dc:title>
+        <dc:contributor>Tuteur de l'ENC : Jean-Baptiste Camps.</dc:contributor>
+        <dc:contributor>Tuteur de l'institution : Nathalie Bosson.</dc:contributor>
+        <dc:contributor>
+            Louvre (Paris)
+        </dc:contributor>
+        <dc:date>2018</dc:date>
+        <dc:description xml:lang="fre">
+            Résumé : 
+            Le copte est le dernier stade de l’ancienne langue égyptienne. Les sources littéraires qui
+            nous sont parvenues dans cette langue présentent plusieurs particularités qui constituent un
+            frein à une appréhension globale de la littérature copte : démembrés ou fragmentés au
+            moment de leur achat, les manuscrits ont été dispersés dans les collections du monde entier,
+            rendant plus difficile le travail d’identification et de reconstitution des corpus dont ils sont
+            issus. Par ailleurs, de nombreux manuscrits sont encore inédits ou les publications peuvent
+            s’avérer trop anciennes et donc obsolètes sur le plan scientifique.
+            Le passage de l’information à l’ère numérique s’est accompagné du développement
+            d’outils et de méthodes qui facilitent aujourd’hui la diffusion et l’accessibilité des objets
+            scientifiques, en même temps que le traitement de données à grande échelle, ouvrant de
+            nouvelles perspectives pour la recherche. Constituer de vastes corpus de données numériques
+            manipulables, interrogeables et requêtables, décloisonner les collections de manuscrits, telles
+            sont quelques-unes des promesses qui sont faites aujourd’hui aux études coptes. Toutefois, les
+            étapes préalables à ce grand dessein sont nombreuses et la communauté des coptisants
+            réduite : les reproductions numériques de manuscrits, tout autant que des fichiers de
+            transcriptions ou de traductions exploitables font souvent défaut. L’exploitation des sources
+            primaires coptes passe donc par la disponibilité de ressources numériques exploitables et
+            l’adoption des normes et des standards nécessaires à leur diffusion.
+            Ce travail constitue un exemple parmi d’autres de ce que les méthodes et outils
+            numériques aujourd’hui disponibles rendent possibles pour l’édition de manuscrits anciens. Il
+            a consisté plus précisément en l’édition numérique du manuscrit Huntington 393 (Oxford,
+            Bodleian Library) en XML-TEI et sa visualisation au travers de l’outil Edition Visualization
+            Technology (EVT)
+        </dc:description>
+        <dc:description>
+            Plan :
+            Première partie Éléments de contexte
+            Chapitre 1 Copte et coptologie
+            1.2 – Écriture et langue coptes
+            1.2.1 – Des emprunts au grec mais un fond égyptien
+            1.2.2 – Des variations dialectales
+            1.2.3 – La disparition du copte au profit de l’arabe
+            1.3 – Des études coptes à la coptologie
+            1.3.1 – Le temps des précurseurs (XIII e -XVII e siècles)
+            1.3.2 – Les premières fouilles et la découverte de l’art copte (XIX e -début XX e siècle)
+            1.3.3 – Une discipline qui s’affirme : vers la création de comités internationaux
+            d’études coptes (XX e siècle)
+            Chapitre 2 Littérature copte
+            2.1 – Caractéristiques principales
+            2.2 – Manuscrits
+            2.2.1 – Éléments de paléographie et de codicologie
+            2.2.2 – Provenance et lieux de conservation
+            Chapitre 3 Le manuscrit Huntington 393 (Oxford, Bodleian Library)
+            3.1 – La collection de Robert Huntington
+            3.2 – Le texte
+            3.3 – Le manuscrit
+            Chapitre 4 Projets numériques des études coptes
+            4. 1 – Le Corpus dei Manoscritti Letterari (CMCL)
+            4.2 – Coptic Scriptorium : enrichir, interroger
+            4.3 – Le projet CoptOT : rassembler et éditer
+            4.4 – Le projet PAThs : classer et représenter
+            Deuxième partie L’édition numérique du manuscrit Huntington 393
+            Chapitre 1 Les étapes préparatoires
+            1.1 – La prise de connaissance
+            1.2 – La préparation de la transcription
+            1.3 – Les choix techniques
+            1.3.1 – Le choix du schéma d’encodage
+            1.3.2 – Le choix de l’interface de visualisation
+            Chapitre 2 L’encodage XML-TEI
+            2.1 – Structure générale
+            2.2 – Les métadonnées
+            2.2.1 – Description de la source : l’élément &lt;sourceDesc&gt;
+            2.2.2 – Les éléments d’indexation
+            2.2.3 – Les éléments de références
+            2.3 – Les facsimilés
+            2.4 – Le texte et le paratexte
+            2.4.1 – L’élément &lt;front&gt;
+            2.4.2 – L’élément &lt;body&gt;
+            2.4.2.1 – Structure du texte
+            2.4.2.2 – Transcription et interventions éditoriales
+            2.4.2.3 – Forme et apparence
+            2.4.2.4 – Références et liens
+            2.4.3 – L’élément &lt;back&gt;
+            2.5 – Difficultés rencontrées
+            Chapitre 3 La visualisation
+            3.1 – Le paramétrage de l’outil EVT
+            3.1.1 – Présentation de l’outil
+            3.1.2 – Données en entrée
+            3.1.2.1 – Les images
+            3.1.2.2 – Le fichier XML-TEI
+            3.1.3 – Adaptations de l’outil
+            3.1.3.1 – Le fichier de configuration
+            3.1.3.2 – L’ajout d’une langue pour l’interface
+            3.1.3.3 – L’ajout d’un clavier virtuel
+            3.1.3.4 – La feuille de style
+            3.1.3.5 – Les feuilles de transformation XSLT
+            3.1.3.6 – La police
+            3.1.4. – Difficultés rencontrées
+            3.2 – Présentation de l’interface
+            3.2.1 – L’en-tête
+            3.2.2 – Le corps de page
+            3.2.2.1 – Boutons de la zone image
+            3.2.2.2 – Boutons de la zone texte
+            3.2.3 – Les zones image et texte
+            3.2.3.1 – La zone image
+            3.2.3.2 – la zone texte
+        </dc:description>
+        <dc:format/>
+        <dc:subject xml:lang="fre">copte</dc:subject>
+        <dc:subject xml:lang="fre">littérature</dc:subject>
+        <dc:subject xml:lang="fre">manuscrit</dc:subject>
+        <dc:subject xml:lang="fre">Mystère des lettres grecques</dc:subject>
+        <dc:subject xml:lang="fre">transcription</dc:subject>
+        <dc:subject xml:lang="fre">édition diplomatique</dc:subject>
+        <dc:subject xml:lang="fre">édition normalisée</dc:subject>
+        <dc:subject xml:lang="fre">XML-TEI</dc:subject>
+        <dc:subject xml:lang="fre">XSLT 2.0</dc:subject>
+        <dc:subject xml:lang="fre">EVT</dc:subject>
+        <dc:subject xml:lang="fre">édition Web</dc:subject>
+        <dc:subject xml:lang="fre">Technologies Numériques Appliquées à l'Histoire</dc:subject>
+        <dc:subject xml:lang="fre">Mémoire pour le master « Technologies numériques appliquées à l'histoire »</dc:subject>
+        <dc:type xml:lang="fre">Mémoire de master</dc:type>
+        <dc:type xml:lang="en">Master Thesis</dc:type>
+        <dc:language xml:lang="fre">Français</dc:language>
+        <dc:language xml:lang="en">French</dc:language>
+        <dc:rights>http://creativecommons.org/licenses/by-nc-nd</dc:rights>
+    </rdf:Description>
+</rdf:RDF>
