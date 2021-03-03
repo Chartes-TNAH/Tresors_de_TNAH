@@ -3,7 +3,6 @@
 <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/">
     <rdf:Description>
         <dc:identifier>18TNAH10</dc:identifier>
-        <!-- auteur = étudiant tnah -->
         <dc:creator>Amandine Heathcote</dc:creator>
         <dc:publisher>Ecole nationale des Chartes (ENC)</dc:publisher>
         <dc:title xml:lang="fre">
