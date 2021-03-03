@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <rdf:Description>
+        <dc:identifier>18TNAH10</dc:identifier>
+        <!-- auteur = étudiant tnah -->
+        <dc:creator>Amandine Heathcote</dc:creator>
+        <dc:publisher>Ecole nationale des Chartes (ENC)</dc:publisher>
+        <dc:title xml:lang="fre">
+            Les bibliothèques de l'Académie d'Architecture. Initialisation de la 
+            gestion numérique de deux collections de bibliothèque.
+        </dc:title>
+        <dc:contributor>Tuteur de l'ENC : Thibault Clérice.</dc:contributor>
+        <dc:contributor>Tuteur de l'institution : Jean-Pierre Peneau.</dc:contributor>
+        <dc:contributor>Académie d'Architecture (Paris)</dc:contributor>
+        <dc:date>2018</dc:date>
+        <dc:description xml:lang="fre">
+            Résumé : 
+            Ce mémoire présente l'aboutissement du parcours professionnel du master "Technologies 
+            numériques appliquées à l'histoire" dispensé à l'Ecole nationale des Chartes. 
+            L'apprentissage des connaissances théoriques a été mis en pratique durant un stage 
+            de quatre mois au sein du Service de la conservation de l'Académie d'Architecture, 
+            sous la direction de Madame Marilena Kourniati et Messieurs Jean-Pierre Péneau et 
+            Paul Quintrand. Il a pour but de relater l'entreprise intellectuelle et technique 
+            effectuée pour initier le traitement numérique de la gestion de la bibliothèque de
+            l'institution. Dans le cadre de ce stage, plusieurs projets ont été envisagés afin 
+            de mettre en place un système informatique de gestion de bibliothèque qui envisage 
+            la dualité des collections de la bibliothèque de l'institution : une collection 
+            historique à valeur patrimoniale d'une part, et d'autre part, une collection 
+            contemporaine. Cette division opérée dans les collections de la bibliothèque 
+            s'explique par l'histoire et l'évolution de l'institution elle-même. La réflexion 
+            autour des données disponibles interroge le traitement des oeuvres conservées.
+            Pour la collection historique, l'analyse critique a été effectuée d'après deux 
+            tableaux d'inventaires en format Word, tandis que l'analyse de la collection 
+            contemporaine s'est faite sur pièce car elle ne dispose pas encore d'un catalogage 
+            qui aurait permis l'évaluation des données brutes. Ce travail d'analyse a permis 
+            d'envisager et de réaliser plusieurs projets de mise en place d'un système informatique 
+            de gestion de bibliothèque afin d'initier le traitement numérique de ces collections, 
+            notamment l'installation et la configuration du logiciel Koha mais également l'élaboration 
+            d'une application web en langage Python, à ce jour inachevée, ainsi que des ressources 
+            complémentaires comme la création d'une base de données MySQL.
+        </dc:description>
+        <dc:description>
+            Plan :
+            Première partie : L'Académie d'Architecture et ses fonds documentaires
+            Chapitre 1 : Dans la ligne de l'Académie royale d'architecture
+.           1.1 L'Académie royale des Beaux-Arts : retour sur les archives de 1813
+            1.2 La Société centrale des architectes en 1840
+            1.3 Académie d'Architecture depuis 1953
+            Chapitre 2 : Le Service de la conservation
+            2.1 Faire revivre l'architecture
+            2.2 Un environnement culturel riche
+            2.3 Traitement de l'enjeu numérique
+            Chapitre 3 : Analyse des ressources documentaires
+            3.1 Traitement effectué sur les archives 
+            3.2 La collection historique de la Bibliothèque du Grand Salon
+            3.3 La collection contemporaine de la Bibliothèque du président
+            Deuxième partie : Catalogage de la collection contemporaine
+            Chapitre 1 : Nettoyer les données du fonds ancien
+            1.1 Un logiciel de nettoyage et de traitement des données brutes
+            1.2 Objectif de nettoyage des données
+            1.3 L'avortement d'un projet trop ambitieux
+            Chapitre 2: Documentation et installation du SIGB Koha 
+            2.1 Choisir un SIGB
+            2.2 Support d'installation
+            2.3 Installation du package
+            Chapitre 3 : Configuration spécifique de Koha
+            3.1 Finalité du projet
+            3.2 Suppression de modules
+            3.3 Création d'une grille de catalogage
+            Troisième partie : Emergence d'une application web afin de gérer
+            l'indexation numérique de la collection historique 
+            Chapitre 1 : Plusieurs projets numériques 
+            1.1 Les fondements du projet
+            1.2 Plusieurs pistes envisageables 
+            Chapitre 2 : L'application web "BHAA": Bibliothèque Historique de 
+            l'Académie d'Architecture
+            2.1 Procédures de développement
+            2.2 Organisation des informations dans une base de données
+            2.3 Un code python exécutant des scripts HTML
+            Chapitre 3 : Le future projet BHAA
+            3.1 Ambition intiale de création d'un outil de catalogage 
+            3.2 Visuel esthétique et ambition de fluidité
+            3.3 L'avenir du prototype
+        </dc:description>
+        <dc:format/>
+        <dc:subject xml:lang="fre">Gestion des collections</dc:subject>
+        <dc:subject xml:lang="fre">Gestion numérique</dc:subject>
+        <dc:subject xml:lang="fre">système informatique de gestion de bibliothèque</dc:subject>
+        <dc:subject xml:lang="fre">Koha</dc:subject>
+        <dc:subject xml:lang="fre">base de données relationnelles</dc:subject>
+        <dc:subject xml:lang="fre">application web</dc:subject>
+        <dc:subject xml:lang="fre">Python </dc:subject>
+        <dc:subject xml:lang="fre">Flask</dc:subject>
+        <dc:subject xml:lang="fre">MySQL</dc:subject>
+        <dc:subject xml:lang="fre">Bibliothèque</dc:subject>
+        <dc:subject xml:lang="fre">Académie d’architecture</dc:subject>
+        <dc:subject xml:lang="fre">Technologies Numériques Appliquées à l'Histoire</dc:subject>
+        <dc:subject xml:lang="fre">Mémoire pour le master « Technologies numériques appliquées à l'histoire »</dc:subject>
+        <dc:type xml:lang="fre">Mémoire de master</dc:type>
+        <dc:type xml:lang="en">Master Thesis</dc:type>
+        <dc:language xml:lang="fre">Français</dc:language>
+        <dc:language xml:lang="en">French</dc:language>
+        <dc:rights>http://creativecommons.org/licenses/by-nc-nd</dc:rights>
+    </rdf:Description>
+</rdf:RDF>
