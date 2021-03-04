@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <rdf:Description>
+        <dc:identifier>19TNAH19</dc:identifier>
+        <dc:creator>Pierre-Louis Pinault</dc:creator>
+        <dc:publisher>École nationale des Chartes (ENC)</dc:publisher>
+        <dc:title xml:lang="fre">Vers la valorisation numérique d’une œuvre d’érudition mauriste du XVIIIe siècle</dc:title>
+        <dc:contributor>Tuteur de l'ENC : Ariane Pinche</dc:contributor>
+        <dc:contributor>Tuteurs de l'institution : Jérémy Delmulle</dc:contributor>
+        <dc:contributor>Institution de stage : Institut de recherche et d’histoire des textes (IRHT)</dc:contributor>
+        <dc:date>2019</dc:date>
+        <dc:description/>
+        <dc:description/>
+        <dc:format/>
+        <dc:subject xml:lang="fre">Valorisation numérique</dc:subject>
+        <dc:subject xml:lang="fre">Œuvre d’érudition mauriste</dc:subject>
+        <dc:subject xml:lang="fre">XVIIIe</dc:subject>
+        <dc:subject xml:lang="fre">TEI</dc:subject>
+        <dc:subject xml:lang="fre">Édition électronique</dc:subject>
+        <dc:subject xml:lang="fre">Édition numérique</dc:subject>
+        <dc:subject xml:lang="fre">Technologies Numériques Appliquées à l'Histoire</dc:subject>
+        <dc:subject xml:lang="fre">Mémoire pour le master « Technologies numériques appliquées à l'histoire »</dc:subject>
+        <dc:type xml:lang="fre">Mémoire de master</dc:type>
+        <dc:type xml:lang="en">Master Thesis</dc:type>
+        <dc:language xml:lang="fre">Français</dc:language>
+        <dc:language xml:lang="en">French</dc:language>
+        <dc:rights>http://creativecommons.org/licenses/by-nc-nd</dc:rights>
+    </rdf:Description>
+</rdf:RDF>
