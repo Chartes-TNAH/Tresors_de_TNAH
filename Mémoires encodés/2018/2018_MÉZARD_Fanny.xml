@@ -59,16 +59,6 @@
          Chapitre 10 : Des essais de reconnaissance d'entités nommées
       </dc:description>
       <dc:format/>
-
-      <dc:subject xml:lang="fre">Technologies Numériques Appliquées à l'Histoire</dc:subject>
-      <dc:subject xml:lang="fre">Mémoire pour le master « Technologies numériques appliquées à
-         l'histoire »</dc:subject>
-      <dc:type xml:lang="fre">Mémoire de master</dc:type>
-      <dc:type xml:lang="en">Master Thesis</dc:type>
-      <dc:language xml:lang="fre">Français</dc:language>
-      <dc:language xml:lang="en">French</dc:language>
-      <dc:rights>http://creativecommons.org/licenses/by-nc-nd</dc:rights>
-
       <dc:subject xml:lang="fre">journal</dc:subject>
       <dc:subject xml:lang="fre">livres numériques</dc:subject>
       <dc:subject xml:lang="fre">EPUB</dc:subject>
@@ -77,5 +67,13 @@
       <dc:subject xml:lang="fre">antiquité</dc:subject>
       <dc:subject xml:lang="fre">web de données</dc:subject>
       <dc:subject xml:lang="fre">bibliothèque numérique</dc:subject>
+      <dc:subject xml:lang="fre">Technologies Numériques Appliquées à l'Histoire</dc:subject>
+      <dc:subject xml:lang="fre">Mémoire pour le master « Technologies numériques appliquées à
+         l'histoire »</dc:subject>
+      <dc:type xml:lang="fre">Mémoire de master</dc:type>
+      <dc:type xml:lang="en">Master Thesis</dc:type>
+      <dc:language xml:lang="fre">Français</dc:language>
+      <dc:language xml:lang="en">French</dc:language>
+      <dc:rights>http://creativecommons.org/licenses/by-nc-nd</dc:rights>
    </rdf:Description>
 </rdf:RDF>
