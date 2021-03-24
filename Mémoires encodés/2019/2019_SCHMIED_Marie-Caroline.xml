@@ -17,7 +17,10 @@
          d'archives.</dc:description>
       <dc:description>non communiquée</dc:description>
       <dc:format/>
-
+      <dc:subject xml:lang="fre">édition numérique</dc:subject>
+      <dc:subject xml:lang="fre">édition papier</dc:subject>
+      <dc:subject xml:lang="fre">TEI</dc:subject>
+      <dc:subject xml:lang="fre">Giétro 1818</dc:subject>
       <dc:subject xml:lang="fre">Technologies Numériques Appliquées à l'Histoire</dc:subject>
       <dc:subject xml:lang="fre">Mémoire pour le master « Technologies numériques appliquées à
          l'histoire »</dc:subject>
@@ -26,10 +29,5 @@
       <dc:language xml:lang="fre">Français</dc:language>
       <dc:language xml:lang="en">French</dc:language>
       <dc:rights>http://creativecommons.org/licenses/by-nc-nd</dc:rights>
-
-      <dc:subject xml:lang="fre">édition numérique</dc:subject>
-      <dc:subject xml:lang="fre">édition papier</dc:subject>
-      <dc:subject xml:lang="fre">TEI</dc:subject>
-      <dc:subject xml:lang="fre">Giétro 1818</dc:subject>
    </rdf:Description>
 </rdf:RDF>
