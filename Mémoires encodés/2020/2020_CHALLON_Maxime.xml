@@ -53,15 +53,6 @@
          </dc:description>
       <dc:format/>
 
-      <dc:subject xml:lang="fre">Technologies Numériques Appliquées à l'Histoire</dc:subject>
-      <dc:subject xml:lang="fre">Mémoire pour le master « Technologies numériques appliquées à
-         l'histoire »</dc:subject>
-      <dc:type xml:lang="fre">Mémoire de master</dc:type>
-      <dc:type xml:lang="en">Master Thesis</dc:type>
-      <dc:language xml:lang="fre">Français</dc:language>
-      <dc:language xml:lang="en">French</dc:language>
-      <dc:rights>http://creativecommons.org/licenses/by-nc-nd</dc:rights>
-
       <dc:subject xml:lang="fre">référentiel</dc:subject>
       <dc:subject xml:lang="fre">Institut national de l’Audiovisuel</dc:subject>
       <dc:subject xml:lang="fre">thésaurus</dc:subject>
@@ -72,5 +63,13 @@
       <dc:subject xml:lang="fre">Wikidata</dc:subject>
       <dc:subject xml:lang="fre">liens</dc:subject>
       <dc:subject xml:lang="fre">alignement</dc:subject>
+       <dc:subject xml:lang="fre">Technologies Numériques Appliquées à l'Histoire</dc:subject>
+      <dc:subject xml:lang="fre">Mémoire pour le master « Technologies numériques appliquées à
+         l'histoire »</dc:subject>
+      <dc:type xml:lang="fre">Mémoire de master</dc:type>
+      <dc:type xml:lang="en">Master Thesis</dc:type>
+      <dc:language xml:lang="fre">Français</dc:language>
+      <dc:language xml:lang="en">French</dc:language>
+      <dc:rights>http://creativecommons.org/licenses/by-nc-nd</dc:rights>
    </rdf:Description>
 </rdf:RDF>
