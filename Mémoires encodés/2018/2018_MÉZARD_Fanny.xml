@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
+   <rdf:Description>
+      <dc:identifier>18TNAH14</dc:identifier>
+      <dc:creator>Fanny Mézard</dc:creator>
+      <dc:publisher>Ecole nationale des Chartes (ENC)</dc:publisher>
+      <dc:title xml:lang="fre"> Proposer de nouveaux usages pour les publications numériques :
+         L'exemple d'ISAW Papers </dc:title>
+      <dc:contributor>Tuteur de l'ENC : Thibaut Clérice.</dc:contributor>
+      <dc:contributor>Tuteur de l'institution : Sebastian Heath.</dc:contributor>
+      <dc:contributor>Institution de stage : ISAW (Institute for the Study of the Ancient
+         World)</dc:contributor>
+      <dc:date>2018</dc:date>
+      <dc:description xml:lang="fre">Résumé : Une publication nativement numérique telle que ISAW
+         Papers offre des possibilités inexistantes dans le cas d'une publication papier. Au cours
+         d'un stage réalisé dans le cadre de la deuxième année du master de l'École nationale des
+         chartes de Technologies Numériques Appliquées à l'Histoire, j'ai étudié en détail ce
+         journal. Publié par ISAW (Institute for the Study of Ancient World), une école doctorale
+         qui accueille professeurs, chercheurs et étudiants en thèse, spécialisés en histoire de
+         l'Antiquité, on y trouve des articles sur l'ensemble des points d'intérêts de l'institut.
+         J'ai été accueillie pendant quatre mois afin de mener à bien différentes missions
+         concernant ISAW Papers. J'ai tout d'abord pu, sous la directe de Sebastian Heath dresser un
+         bilan de l'état actuel des articles et travailler à améliorer ce qui existait déjà. Une
+         fois cette phase de découverte achevée, le travail s'est organisé autour de deux grands
+         axes permettant de faciliter l'accès au journal et l'exploitation des données contenues
+         dans celui-ci. Tout d'abord, cette publication initialement accessible en ligne au format
+         HTML a été rendue accessible et téléchargeable sous forme de livres numériques. Son
+         téléchargement au format HTML a également été facilité. La deuxième partie du travail a
+         consisté à réaliser une application web. Cette application, Index Indicum, se compose de
+         différentes pages présentant chacune un type d'index différent. Ces index permettent de
+         repérer très facilement un certain nombre d'éléments des articles tels que les auteurs ou
+         les lieux mentionnés à travers différents médias tels qu'une carte ou une simple liste. Ces
+         informations sont liées à d'autres sources tels que les pages de l'index géographique des
+         lieux anciens Pleaides ou les pages VIAF et Orcid des auteurs. Les articles sont ainsi liés
+         à un certain nombre de ressources externes. Ces projets s'inscrivent dans un projet plus
+         général de l'institut qui cherche à valoriser les collections de sa bibliothèque de
+         multiples manières. La bibliothèque est en train de mettre en place une politique de
+         numérisation pour faciliter l'accès aux articles aux personnes qui ne sont pas sur place
+         mais également dans l'optique de pouvoir profiter de tous les outils offerts par le
+         numérique.</dc:description>
+      
+      <dc:description>Plan : 
+         Première partie : ISAW Papers : Une publication d'ISAW nativement
+         numérique. 
+         Chapitre 1 : ISAW, un institut qui place le numérique au coeur de ses
+         préoccupations 
+         Chapitre 2 : La bibliothèque et ses ressources en ligne 
+         Chapitre 3 : Découvrir ISAW Papers en contrôlant et modifiant les fichiers existants. 
+         Deuxième partie : Proposer de nouveaux modes d'accès. 
+         Chapitre 4 : S'assurer de la citabilité des articles
+         Chapitre 5 : Une nouvelle offre : la création de livres numériques 
+         Chapitre 6 : Adapter le format existant : un fichier HTML autonome 
+         Chapitre 7 : Accent sur la lisibilité 
+         Troisième partie : Explorer les articles : une application web. 
+         Chapitre 8 : Structure de l'application 
+         Chapitre 9 : Utilisation des identifiants Pleiades 
+         Chapitre 10 : Des essais de reconnaissance d'entités nommées
+      </dc:description>
+      <dc:format/>
+
+      <dc:subject xml:lang="fre">Technologies Numériques Appliquées à l'Histoire</dc:subject>
+      <dc:subject xml:lang="fre">Mémoire pour le master « Technologies numériques appliquées à
+         l'histoire »</dc:subject>
+      <dc:type xml:lang="fre">Mémoire de master</dc:type>
+      <dc:type xml:lang="en">Master Thesis</dc:type>
+      <dc:language xml:lang="fre">Français</dc:language>
+      <dc:language xml:lang="en">French</dc:language>
+      <dc:rights>http://creativecommons.org/licenses/by-nc-nd</dc:rights>
+
+      <dc:subject xml:lang="fre">journal</dc:subject>
+      <dc:subject xml:lang="fre">livres numériques</dc:subject>
+      <dc:subject xml:lang="fre">EPUB</dc:subject>
+      <dc:subject xml:lang="fre">Flask</dc:subject>
+      <dc:subject xml:lang="fre">application web</dc:subject>
+      <dc:subject xml:lang="fre">antiquité</dc:subject>
+      <dc:subject xml:lang="fre">web de données</dc:subject>
+      <dc:subject xml:lang="fre">bibliothèque numérique</dc:subject>
+   </rdf:Description>
+</rdf:RDF>
