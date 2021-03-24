@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
+   <rdf:Description>
+      <dc:identifier>20TNAH04</dc:identifier>
+      <dc:creator>Maxime Challon</dc:creator>
+      <dc:publisher>Ecole nationale des Chartes (ENC)</dc:publisher>
+      <dc:title xml:lang="fre">Les référentiels en institutions patrimoniales : évolution des
+         pratiques et repositionnement. L’exemple des référentiels de l’Institut national de
+         l’Audiovisuel</dc:title>
+      <dc:contributor>Tuteur de l'ENC : Thibaut Clérice.</dc:contributor>
+      <dc:contributor>Tuteur de l'institution : Gautier Poupeau.</dc:contributor>
+      <dc:contributor>Institution de stage : Institut national de l’Audiovisuel
+         (INA)</dc:contributor>
+      <dc:date>2020</dc:date>
+      <dc:description xml:lang="fre">Résumé : Ce mémoire, réalisé pour l'obtention du diplôme de
+         Master 2 Technologies numériques appliquées à l'histoire de l'École nationale des
+         Chartes, retrace l'évolution des pratiques documentaires sur les référentiels en
+         institution patrimoniale à travers l'étude des référentiels de l'INA et leurs
+         alignements. Cette étude de l'évolution des formes et des structures des référentiels est
+         liée à l'évolution de la place de ces référentiels au sein des systèmes documentaires,
+         ainsi qu'aux besoins qui leur sont liés.</dc:description>
+      <dc:description>Première partie : Le référentiel comme clé. 
+         Chapitre I-A-1 : Du langage libre au langage contrôlé: vers l'indexation 
+         Chapitre I-A-2 : Une clé entre les données: les vocabulaires contrôlés I-A-2-a : Contrôle de la forme des vedettes I-A-2-b : Contrôle de la polysémie et de l'homographie I-A-2-c : Contrôle de la synonymie 
+         Chapitre I-A-3 : Une clé entre les jeux de données: l'interopérabilité par les fichiers d'autorité et les portails I-A-3-a : La naissance des autorités par rétroconversion I-A-3-b : Partager des vocabulaires: à la recherche de la meilleure interopérabilité 
+         Chapitre I-B-1 : De multiples fonds à décrire I-B-1-a : Les archives professionnelles I-B-1-b : Les fonds issus du dépôt légal 
+         Chapitre I-B-2 : Un système documentaire pluriel I-B-2-a : Les bases de données des archives professionnelles I-B-2-b : La base de données juridiques
+         Chapitre I-C-1 : L'arbre de Porphyre: origines et influences I-C-1-a : L'arbre de Porphyre I-C-1-b : L'encyclopédisme I-C-1-c : Influences: une diversité de référentiels hiérarchiques
+         Chapitre I-C-2 : Le thésaurus I-C-2-a : Types de structure I-C-2-b : Relations entre les termes I-C-2-c : Utiliser la précoordination pour les relations complexes
+         Chapitre I-C-3 : Passer du texte libre à un vocabulaire contrôlé I-C-3-a : Contrôler du texte libre I-C-3-b : Aligner avec un thésaurus de noms communs I-C-3-c : Classer selon le thésaurus
+         Deuxième partie :  
+         Chapitre II-A-1 : Le Web de données: naissance et principes II-A-1-a : Un modèle de données nativement compatible avec le Web II-A-1-a-i : Naissance du Web de données II-A-1-a-ii : Principes généraux II-A-1-b : Inventer un format d'échange compatible avec ce modèle de données
+         Chapitre II-A-2 : La mise en commun de référentiels au service des institutions II-A-2-a : L'adoption du Web de données en institutions patrimoniales II-A-2-b : Utiliser des vocabulaires de valeurs II-A-2-c : Créer des passerelles entre les référentiels 
+         Chapitre II-A-3 : Vers la fin de la notion de référentiels? II-A-3-a : Quand tout devient un potentiel référentiel II-A-3-b : Uniformisation de la donnée sur le Web et adoption de RDF 
+         Chapitre II-B-1 : L'ontologie, un vocabulaire structurant II-B-1-a : Origines de l'ontologie informatique II-B-1-b : Des ontologies différentes II-B-1-c : Les principes de l'ontologie
+         Chapitre II-B-2 : Vers l'interopérabilité syntaxique II-B-2-a : Distinguer les KOS des ontologies II-B-2-b : SKOS: exposer les KOS sur le Web de données
+         Chapitre II-B-3 : Les ontologies dans le Web sémantique II-B-3-a : Décrire des ontologies en RDF II-B-3-b : Utilisation des ontologies en institutions
+         Chapitre II-C-1 : L'arbre de Porphyre: origines et influences II-C-1-a : L'arbre de Porphyre II-C-1-b : L'encyclopédisme II-C-1-c : Influences: une diversité de référentiels hiérarchiques
+         Chapitre II-C-2 : Le thésaurus II-C-2-a : Types de structure II-C-2-b : Relations entre les termes II-C-2-c : Utiliser la précoordination pour les relations complexes
+         Chapitre II-C-3 : Passer du texte libre à un vocabulaire contrôlé II-C-3-a : Contrôler du texte libre II-C-3-b : Aligner avec un thésaurus de noms communs II-C-3-c : Classer selon le thésaurus
+         Troisième partie :
+         Chapitre III-A-1 : Du modèle encyclopédique aux graphes de données III-A-1-a : Vers les labyrinthes III-A-1-b : Des labyrinthes aux graphes
+         Chapitre III-A-2 : Les hubs de liens III-A-2-a : De la décentralisation des référentiels à leur recentralisation III-A-2-b : Apparition des hubs de liens et d'identifiants  III-A-2-c : Les hubs de liens et d'identifiants réceptacles de données 
+         Chapitre III-A-3 : Wikidata comme hub de liens III-A-3-a : Enrichir ses données avec des identifiants III-A-3-b : Aligner des fictions et des séries avec Wikidata
+         Chapitre III-B-1 : Le Linked Enterprise Data III-B-1-a : Permettre l'interopérabilité au sein des institutions III-B-1-b : Repenser le système documentaire III-B-1-c : Le positionnement du référentiel
+         Chapitre III-B-2 : le lac de données de l'INA III-B-2-a : Un modèle basé sur des classes d'entités III-B-2-b : La place des concepts III-B-2-c : Une infrastructure unique
+         Chapitre III-B-3 : Perspectives d'utilisation III-B-3-a : La description automatique de vidéos III-B-3-b : Faciliter et améliorer le catalogage des documents III-B-3-c : Améliorer la valorisation des documents
+         Chapitre III-C-1 : Des jeux de données différents III-C-1-a : Enjeux III-C-1-b : Points de contact  III-C-1-c : Divergences
+         Chapitre III-C-2 : Une méthodologie particulière III-C-2-a :  Créer un indice de confiance III-C-2-b : Des étapes exclusives 
+         Chapitre III-C-3 : Des résultats à la hauteur des données initiales III-C-3-a :  Des résultats hétérogènes III-C-3-b :  Une supervision humaine nécessaire 
+         </dc:description>
+      <dc:format/>
+
+      <dc:subject xml:lang="fre">Technologies Numériques Appliquées à l'Histoire</dc:subject>
+      <dc:subject xml:lang="fre">Mémoire pour le master « Technologies numériques appliquées à
+         l'histoire »</dc:subject>
+      <dc:type xml:lang="fre">Mémoire de master</dc:type>
+      <dc:type xml:lang="en">Master Thesis</dc:type>
+      <dc:language xml:lang="fre">Français</dc:language>
+      <dc:language xml:lang="en">French</dc:language>
+      <dc:rights>http://creativecommons.org/licenses/by-nc-nd</dc:rights>
+
+      <dc:subject xml:lang="fre">référentiel</dc:subject>
+      <dc:subject xml:lang="fre">Institut national de l’Audiovisuel</dc:subject>
+      <dc:subject xml:lang="fre">thésaurus</dc:subject>
+      <dc:subject xml:lang="fre">vocabulaire contrôlé</dc:subject>
+      <dc:subject xml:lang="fre">vocabulaire hiérarchique</dc:subject>
+      <dc:subject xml:lang="fre">ontologie</dc:subject>
+      <dc:subject xml:lang="fre">web de données</dc:subject>
+      <dc:subject xml:lang="fre">Wikidata</dc:subject>
+      <dc:subject xml:lang="fre">liens</dc:subject>
+      <dc:subject xml:lang="fre">alignement</dc:subject>
+   </rdf:Description>
+</rdf:RDF>
