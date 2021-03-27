@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
+   <rdf:Description>
+      <dc:identifier>19TNAH21</dc:identifier>
+      <dc:creator>Marie-Caroline Schmied</dc:creator>
+      <dc:publisher>Ecole nationale des Chartes (ENC)</dc:publisher>
+      <dc:title xml:lang="fre">De l’édition papier à l’édition numérique : Giétro 1818</dc:title>
+      <dc:contributor>Tuteur de l'ENC : Thibaut Clérice.</dc:contributor>
+      <dc:contributor>Tuteur de l'institution : Alain Dubois.</dc:contributor>
+      <dc:contributor>Institution de stage : Archives de l’État du Valais (Suisse)</dc:contributor>
+      <dc:date>2019</dc:date>
+      <dc:description xml:lang="fre">Résumé : Ce mémoire a été réalisé afin de rendre possible la
+         mise en ligne de sources historiques (en format IIIF) relatives à la catastrophe du Giétro.
+         L'idée était de pouvoir relier publication scientifique sur le sujet et sources
+         d'archives.</dc:description>
+      <dc:description/>
+      <dc:format/>
+      <dc:subject xml:lang="fre">édition numérique</dc:subject>
+      <dc:subject xml:lang="fre">édition papier</dc:subject>
+      <dc:subject xml:lang="fre">TEI</dc:subject>
+      <dc:subject xml:lang="fre">Giétro 1818</dc:subject>
+      <dc:subject xml:lang="fre">Technologies Numériques Appliquées à l'Histoire</dc:subject>
+      <dc:subject xml:lang="fre">Mémoire pour le master « Technologies numériques appliquées à
+         l'histoire »</dc:subject>
+      <dc:type xml:lang="fre">Mémoire de master</dc:type>
+      <dc:type xml:lang="en">Master Thesis</dc:type>
+      <dc:language xml:lang="fre">Français</dc:language>
+      <dc:language xml:lang="en">French</dc:language>
+      <dc:rights>http://creativecommons.org/licenses/by-nc-nd</dc:rights>
+   </rdf:Description>
+</rdf:RDF>
