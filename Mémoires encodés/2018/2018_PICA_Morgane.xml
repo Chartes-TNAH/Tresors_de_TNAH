@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <rdf:Description>
+        <dc:identifier>18TNAH15</dc:identifier>
+        <dc:creator>Morgane Pica</dc:creator>
+        <dc:publisher>Ecole nationale des Chartes (ENC)</dc:publisher>
+        <dc:title xml:lang="fre">Rétro-encodage de textes juridiques pour la recherche : proposition
+            d’un modèle d’encodage des chartes privées alto-médiévales pour le projet
+            Formulae-Litterae-Chartae de l’Académie des Sciences de Hambourg</dc:title>
+        <dc:contributor>Tuteur de l'ENC : Thibault Clérice</dc:contributor>
+        <dc:contributor>Tuteur de l'institution : Pr. Dr. Philippe Depreux</dc:contributor>
+        <dc:contributor>Institution de stage : Formulae Litterae Chartae (Hambourg,
+            Allemagne)</dc:contributor>
+        <dc:date>2018</dc:date>
+        <dc:description xml:lang="fre">Résumé : Ce mémoire a été rédigé pour la validation du master
+            professionnel « Technologies numériques appliquées à l’histoire » de l’École nationale
+            des chartes et fait suite au stage professionnel de second semestre réalisé au sein d’un
+            projet d’édition et de traduction des formules alto-médiévales,
+            Formulae-Litterae-Chartae, de l’Académie des Sciences et l’Université de Hambourg
+            (Allemagne). Le mémoire rend compte des travaux réalisés dans ce cadre, qui consistent
+            en un rétro-encodage d’un corpus de chartes alto-médiévales (VIe-Xe siècles) dans le but
+            d’en constituer une base de données pour un usage interne au projet sur l’environnement
+            de lecture. Cela a nécessité la définition d’un modèle d’encodage, puis la conversion de
+            documents Word en une série de documents TEI-XML sur le modèle de la Digital Latin
+            Library au moyen de transformations XSLT élaborées spécialement. Ces opérations ont
+            nécessité des décisions structurelles et des choix quant à la précision de l’encodage ou
+            la manière d’intégrer les informations paratextuelles dans les fichiers, mais aussi une
+            réflexion sur les conditions d’utilisation des documents créés. Ce mémoire rend compte
+            de ces réflexions et des décisions prises en conséquence.</dc:description>
+
+        <dc:description> Plan : 
+            Première partie : Base de réflexion
+                Chapitre 1 : Formules, chartes et notices
+                    1.1 Formulae-Litterae-Chartae
+                    1.2 Définitions
+                Chapitre 2 : Notre corpus
+                Chapitre 3 : Buts théoriques et pratiques
+                    3.1 Finalité
+                    3.2 Encodage structurel
+                    3.3 Compatibilité et interopérabilité
+                    
+            Seconde partie : Rétro-encodage des chartes privées alto-médiévales
+                Chapitre 1 : Définition d'une structure générale
+                    1.1 Typologie des informations
+                    1.2 D'une structure papier à la TEI-XML
+                    1.3 Choix d'un modèle d'encodage
+                    1.4 CapiTainS et la structuration de la base de données
+                    1.5 Encodage d'une édition-type
+                        1.5.1 Le TEI header et les métadonnées
+                        1.5.2 Texte et paratexte
+                Chapitre 2 : De l'édition papier à la collection encodée
+                    2.1 Modèle Word pour la transcription
+                    2.2 Encodage des dates
+                    2.3 Identification des passages
+                    2.4 CapiTains et les fichiers individuels de chartes
+                Chapitre 3 : Cas particuliers
+                    3.1 Témoins et versions
+                    3.2 Textparts
+                    3.3 Créations et fragments
+                    3.4 Le cas de Salzbourg
+                        3.3.1 Création des identifiants CapiTainS
+                        3.3.2 Organisation interne
+                Chapitre 4 : Les transformations XSLT
+                    4.1 XSLT et XPath
+                    4.2 D'un tableau TEI-XML à un fichier de « collection »
+                        4.2.1 Les variables
+                        4.2.2 Organisation générale et teiHeader
+                        4.2.3 Versions et textparts
+                        4.2.4 La transformation spécifique à Salzbourg
+                    4.3 Du fichier collectif aux fichiers individuels
+                        4.3.1 Création des fichiers
+                        4.3.2 Copie et refonte du teiHeader 
+                        4.3.3 La spécificité de Salzbourg
+                    4.4 Du fichier collectif aux fichiers de métadonnées</dc:description>
+
+        <dc:format/>
+        <dc:subject xml:lang="en">TEI-XML</dc:subject>
+        <dc:subject xml:lang="en">XSLT</dc:subject>
+        <dc:subject xml:lang="en">Digital Latin Library</dc:subject>
+        <dc:subject xml:lang="fre">rétroencodage</dc:subject>
+        <dc:subject xml:lang="fre">chartes</dc:subject>
+        <dc:subject xml:lang="fre">formules</dc:subject>
+        <dc:subject xml:lang="fre">notices</dc:subject>
+        <dc:subject xml:lang="fre">haut Moyen Âge</dc:subject>
+        <dc:subject xml:lang="fre">édition</dc:subject>
+        <dc:subject xml:lang="lat">Formulae-Litterae-Chartae</dc:subject>
+        <dc:subject xml:lang="fre">Technologies Numériques Appliquées à l'Histoire</dc:subject>
+        <dc:subject xml:lang="fre">Mémoire pour le master « Technologies numériques appliquées à
+            l'histoire »</dc:subject>
+        <dc:type xml:lang="fre">Mémoire de master</dc:type>
+        <dc:type xml:lang="en">Master Thesis</dc:type>
+        <dc:language xml:lang="fre">Français</dc:language>
+        <dc:language xml:lang="en">French</dc:language>
+        <dc:rights>http://creativecommons.org/licenses/by-nc-nd</dc:rights>
+    </rdf:Description>
+</rdf:RDF>
