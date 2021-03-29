@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <rdf:Description>
+        <dc:identifier>18TNAH16</dc:identifier>
+        <dc:creator>Sabine Roulleau</dc:creator>
+        <dc:publisher>Ecole nationale des Chartes (ENC)</dc:publisher>
+        <dc:title xml:lang="fre">La valorisation numérique des Archives nationales: l'opportunité IIIF</dc:title>
+        <dc:contributor>Tuteur de l'ENC : Gautier Poupeau</dc:contributor>
+        <dc:contributor>Tuteur de l'institution : Meg Rousseau</dc:contributor>
+        <dc:contributor>Institution de stage : Archives nationales de France (Paris)</dc:contributor>
+        <dc:date>2018</dc:date>
+        <dc:description xml:lang="fre">Résumé : Depuis 2012, les Archives nationales diffusent en
+            ligne environ 8 millions de vues d’archives numérisées. L’établissement produit, en
+            moyenne, 400 000 images par an et reproduit, notamment, des documents de très grande
+            dimension. Les fichiers numériques ainsi obtenus posent des questions de stockage, de
+            consultation et de partage. L’ état des lieux des archives numérisées révèle une
+            production de qualité mais un manque de visibilité de celle-ci, en raison des limites de
+            la bibliothèque numérique actuelle. Pour les Archives nationales, le protocole IIIF
+            apparaît comme une opportunité intéressante de diffusion et de partage des collections
+            numériques en ligne. Aussi, ce travail se propose d’étudier le standard et son
+            adaptation aux spécificités des archives. IIIF répond bien aux difficultés d’exposition
+            des archives numérisées de l’établissement, mais son implémentation nécessite une
+            nouvelle gestion des images et des métadonnées. L’idée serait de créer des objets
+            numériques à part entière pour mieux exploiter ces éléments. La création d’un entrepôt
+            IIIF nécessite aussi de définir une nouvelle chaîne de production numérique. En effet,
+            pour optimiser la visualisation des images avec le protocole, il est nécessaire
+            d’utiliser des formats d’images « tuilés », comme JPEG2000. Pour envisager au mieux le
+            passage à ce standard d’interopérabilité, une liste des prérequis a été établie ainsi
+            qu’une planification en trois phases des opérations à mener. Enfin, ce projet pose aussi
+            la question de l’archivage de cette production numérique qui pourrait être
+            éventuellement être prise en charge par l’institution, dans le cadre de son projet
+            d’archivage électronique, ADAMANT.</dc:description>
+        <dc:description> Plan : 
+            Les archives numérisées, une collection disparate, produite et gérée
+            par de nombreux acteurs 
+                1.1. Les acteurs de la numérisation 
+                    1.1.1) La nouvelle configuration des Archives nationales avec le site de Pierrefitte 
+                    1.1.2) Les services concernés par la numérisation 
+                    1.1.3) La sous-direction des systèmes d'information (SDSI) du Ministère de la Culture 
+                    1.1.4) La politique de numérisation et d'ouverture des données de l’établissement 
+                1.2. Un système d’information pour la production documentaire et la diffusion des archives numérisées 
+                    1.2.1) Le système d'information archivistique
+                    1.2.2) Un référentiel documentaire pour produire et gérer les instruments de recherche
+                    1.2.3) Le référentiel multimédia pour gérer la bibliothèque numérique 
+                    1.2.4) La salle des inventaires virtuelle pour accéder aux archives numérisées 
+                1.3. Les bases externes
+                    1.3.1) Les bases de dépouillement CINDOC et les bases d'images Mistral 
+                    1.3.2) La photothèque Bianca 
+                1.4. Une production d’images importante stockée sur de multiples supports 
+                    1.4.1) Le circuit de numérisation 
+                    1.4.2) Quels fonds sont numérisés ? 
+                    1.4.3) Où sont stockés les fichiers images ? 
+                    1.4.4) Où sont diffusées les archives numérisées ?
+                    1.4.5) Les métadonnées des documents numérisés éparpillées dans de multiples fichiers
+                1.5. Les limites du système actuel pour la gestion et la diffusion des images 
+                    1.5.1) Un problème structurel, les images ne sont accessibles qu’à partir des inventaires 
+                    1.5.2) La difficile gestion des images dans la bibliothèque numérique 
+                    1.5.3) Les archives numérisées sont peu visibles et sécurisées dans la SIV 
+            
+            Comment améliorer la gestion et la diffusion des archives numérisées ? 
+                2.1. L'organisation de la collection d'images autour d'objets numériques identifiés et structurés
+                    2.1.1) La constitution d’objets numériques 
+                    2.1.2) Des fichiers METS ou des manifestes SEDA pour organiser les images et les métadonnées ? 
+                    2.1.3) Des identifiants pour les objets numériques et une arborescence signifiante pour le stockage des fichiers 
+                2.2. Un entrepôt IIIF pour valoriser les archives numérisées sur le Web 
+                    2.2.1) Des outils partagés développés par la communauté IIIF 
+                    2.2.2) Des coûts partagés et une diversité de solutions logicielles 
+                    2.2.3) Un accès facilité aux documents numérisés et une réutilisation des données sans duplication
+                    2.2.4) Des fonctionnalités avancées pour les utilisateurs 
+                    2.2.5) Les collections de manifestes, une solution de présentation pour des documents d’archives ? 
+                2.3. Des projets de recherche exploitant le protocole IIIF sont déjà en cours aux Archives nationales 
+                    2.3.1) IIIF pour améliorer l’accès aux ressources numérisées dans le cadre du projet Himanis 
+                    2.3.2) IIIF pour manipuler les testaments de poilus dans le cadre du projet collaboratif de transcription 
+                    2.3.3) IIIF pour intégrer des données au portail Biblissima 
+                    
+            Vers un système d’archivage des documents numériques pour alimenter l’entrepôt IIIF et les conserver de manière pérenne 
+                3.1. Les prérequis pour constituer un entrepôt IIIF 
+                    3.1.1) Un serveur d’images IIIF et un visionneuse 
+                    3.1.2) La conversion des images en JPEG2000 ou en TIFF pyramidal 
+                    3.1.3) La génération automatique de manifestes à partir des sources actuelles 
+                3.2. Phase 1 : production d’images et de manifestes IIIF par lot à partir de l’existant 
+                    3.2.1) Installation d’un serveur d’images IIIF hébergé chez Huma-num 
+                    3.2.2) Tests et choix d’un profil de conversion 
+                    3.2.3) Préparation d’un lot à partir d’une base Mistral 
+                    3.2.4) Préparation d’un lot à partir d’un IR 
+                    3.2.5) Chargement des lots préparés sur le serveur IIIF 
+                    3.2.6) Adaptation de la SIV et autres solutions de diffusion 
+                    3.2.7) Bilan et questions en suspens 
+                3.3. Phase 2 : Nouvelle chaîne de traitement pour alimenter directement l’entrepôt IIIF
+                    3.3.1) Campagne de numérisation en JPEG2000 et enrichissement des fichiers METS par les prestataires 
+                    3.3.2) Création d’une base de gestion des images et des métadonnées 
+                    3.3.3) Formation des rédacteurs à la nouvelle procédure 
+                    3.3.4) Migration du serveur d’images IIIF et à la SDSI 
+                    3.3.5) Bilan et questions en suspens 
+                3.4. Phase 3 : Exposer et archiver les documents numérisés grâce à l’entrepôt IIIF 
+                    3.4.1) Scénario 1 : un entrepôt IIIF et un serveur de conservation indépendant du SIA V3 
+                    3.4.2) Scénario 2 : un entrepôt IIIF et le serveur Vitam pour la conservation</dc:description>
+
+        <dc:format/>
+        <dc:subject xml:lang="fre">archives numérisées</dc:subject>
+        <dc:subject xml:lang="fre">intéropérabilité</dc:subject>
+        <dc:subject xml:lang="en">IIIF</dc:subject>
+        <dc:subject xml:lang="fre">images numériques</dc:subject>
+        <dc:subject xml:lang="en">JPEG2000</dc:subject>
+        <dc:subject xml:lang="fre">SEDA</dc:subject>
+        <dc:subject xml:lang="en">OAIS</dc:subject>
+        <dc:subject xml:lang="fre">Archives nationales</dc:subject>
+        <dc:subject xml:lang="fre">métadonnées</dc:subject>
+        <dc:subject xml:lang="en">METS</dc:subject>
+        <dc:subject xml:lang="en">EAD</dc:subject>
+        <dc:subject xml:lang="fre">archivage électronique</dc:subject>
+        <dc:subject xml:lang="fre">Technologies Numériques Appliquées à l'Histoire</dc:subject>
+        <dc:subject xml:lang="fre">Mémoire pour le master « Technologies numériques appliquées à
+            l'histoire »</dc:subject>
+        <dc:type xml:lang="fre">Mémoire de master</dc:type>
+        <dc:type xml:lang="en">Master Thesis</dc:type>
+        <dc:language xml:lang="fre">Français</dc:language>
+        <dc:language xml:lang="en">French</dc:language>
+        <dc:rights>http://creativecommons.org/licenses/by-nc-nd</dc:rights>
+    </rdf:Description>
+</rdf:RDF>
